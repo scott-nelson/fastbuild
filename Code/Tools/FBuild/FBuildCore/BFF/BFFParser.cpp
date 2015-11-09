@@ -3,27 +3,25 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "BFFParser.h"
 #include "BFFIterator.h"
 #include "BFFMacros.h"
 #include "BFFStackFrame.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/BFF/Functions/Function.h"
+#include "../FBuild.h"
+#include "../Graph/NodeGraph.h"
+#include "../FLog.h"
+#include "Functions/Function.h"
 
 // Core
-#include "Core/Containers/AutoPtr.h"
-#include "Core/Env/Assert.h"
-#include "Core/Env/Env.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Time/Timer.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../../../Core/Containers/AutoPtr.h"
+#include "../../../../Core/Env/Assert.h"
+#include "../../../../Core/Env/Env.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/FileIO/PathUtils.h"
+#include "../../../../Core/Strings/AStackString.h"
+#include "../../../../Core/Time/Timer.h"
+#include "../../../../Core/Tracing/Tracing.h"
 
 #include <stdio.h>
 
@@ -352,7 +350,7 @@ bool BFFParser::ParseVariableDeclaration( BFFIterator & iter, const AString & va
 		}
 		AStackString<> intAsString( startIntValue.GetCurrent(), iter.GetCurrent() );
 		int i = 0;
-		if ( sscanf( intAsString.Get(), "%i", &i ) != 1 )
+		if ( sscanf_s( intAsString.Get(), "%i", &i ) != 1 )
 		{
 			Error::Error_1018_IntegerValueCouldNotBeParsed( startIntValue );
 			return false;

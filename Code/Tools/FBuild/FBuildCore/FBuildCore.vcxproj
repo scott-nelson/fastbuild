@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BFF\BFFIterator.cpp" />
+    <ClCompile Include="BFF\BFFMacros.cpp" />
+    <ClCompile Include="BFF\BFFParser.cpp" />
+    <ClCompile Include="BFF\BFFStackFrame.cpp" />
+    <ClCompile Include="BFF\BFFVariable.cpp" />
+    <ClCompile Include="BFF\Functions\Function.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionAlias.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionCompiler.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionCopy.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionCopyDir.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionCSAssembly.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionDLL.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionExec.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionExecutable.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionForEach.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionLibrary.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionObjectList.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionPrint.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionSettings.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionSLN.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionTest.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionUnity.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionUsing.cpp" />
+    <ClCompile Include="BFF\Functions\FunctionVCXProject.cpp" />
+    <ClCompile Include="Cache\Cache.cpp" />
+    <ClCompile Include="Cache\CachePlugin.cpp" />
+    <ClCompile Include="Error.cpp" />
+    <ClCompile Include="FBuild.cpp" />
+    <ClCompile Include="FBuildOptions.cpp" />
+    <ClCompile Include="FLog.cpp" />
+    <ClCompile Include="Graph\AliasNode.cpp" />
+    <ClCompile Include="Graph\CompilerNode.cpp" />
+    <ClCompile Include="Graph\CopyDirNode.cpp" />
+    <ClCompile Include="Graph\CopyNode.cpp" />
+    <ClCompile Include="Graph\CSNode.cpp" />
+    <ClCompile Include="Graph\Dependencies.cpp" />
+    <ClCompile Include="Graph\DirectoryListNode.cpp" />
+    <ClCompile Include="Graph\DLLNode.cpp" />
+    <ClCompile Include="Graph\ExecNode.cpp" />
+    <ClCompile Include="Graph\ExeNode.cpp" />
+    <ClCompile Include="Graph\FileNode.cpp" />
+    <ClCompile Include="Graph\LibraryNode.cpp" />
+    <ClCompile Include="Graph\LinkerNode.cpp" />
+    <ClCompile Include="Graph\MetaData\Meta_Name.cpp" />
+    <ClCompile Include="Graph\Node.cpp" />
+    <ClCompile Include="Graph\NodeGraph.cpp" />
+    <ClCompile Include="Graph\NodeProxy.cpp" />
+    <ClCompile Include="Graph\ObjectListNode.cpp" />
+    <ClCompile Include="Graph\ObjectNode.cpp" />
+    <ClCompile Include="Graph\SLNNode.cpp" />
+    <ClCompile Include="Graph\TestNode.cpp" />
+    <ClCompile Include="Graph\UnityNode.cpp" />
+    <ClCompile Include="Graph\VCXProjectNode.cpp" />
+    <ClCompile Include="Helpers\Args.cpp" />
+    <ClCompile Include="Helpers\CIncludeParser.cpp" />
+    <ClCompile Include="Helpers\Compressor.cpp" />
+    <ClCompile Include="Helpers\FBuildStats.cpp" />
+    <ClCompile Include="Helpers\Report.cpp" />
+    <ClCompile Include="Helpers\ResponseFile.cpp" />
+    <ClCompile Include="Helpers\SLNGenerator.cpp" />
+    <ClCompile Include="Helpers\ToolManifest.cpp" />
+    <ClCompile Include="Helpers\VSProjectGenerator.cpp" />
+    <ClCompile Include="Protocol\Client.cpp" />
+    <ClCompile Include="Protocol\Protocol.cpp" />
+    <ClCompile Include="Protocol\Server.cpp" />
+    <ClCompile Include="WorkerPool\Job.cpp" />
+    <ClCompile Include="WorkerPool\JobQueue.cpp" />
+    <ClCompile Include="WorkerPool\JobQueueRemote.cpp" />
+    <ClCompile Include="WorkerPool\WorkerBrokerage.cpp" />
+    <ClCompile Include="WorkerPool\WorkerThread.cpp" />
+    <ClCompile Include="WorkerPool\WorkerThreadRemote.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BFF\BFFIterator.h" />
+    <ClInclude Include="BFF\BFFMacros.h" />
+    <ClInclude Include="BFF\BFFParser.h" />
+    <ClInclude Include="BFF\BFFStackFrame.h" />
+    <ClInclude Include="BFF\BFFVariable.h" />
+    <ClInclude Include="BFF\Functions\Function.h" />
+    <ClInclude Include="BFF\Functions\FunctionAlias.h" />
+    <ClInclude Include="BFF\Functions\FunctionCompiler.h" />
+    <ClInclude Include="BFF\Functions\FunctionCopy.h" />
+    <ClInclude Include="BFF\Functions\FunctionCopyDir.h" />
+    <ClInclude Include="BFF\Functions\FunctionCSAssembly.h" />
+    <ClInclude Include="BFF\Functions\FunctionDLL.h" />
+    <ClInclude Include="BFF\Functions\FunctionExec.h" />
+    <ClInclude Include="BFF\Functions\FunctionExecutable.h" />
+    <ClInclude Include="BFF\Functions\FunctionForEach.h" />
+    <ClInclude Include="BFF\Functions\FunctionLibrary.h" />
+    <ClInclude Include="BFF\Functions\FunctionObjectList.h" />
+    <ClInclude Include="BFF\Functions\FunctionPrint.h" />
+    <ClInclude Include="BFF\Functions\FunctionSettings.h" />
+    <ClInclude Include="BFF\Functions\FunctionSLN.h" />
+    <ClInclude Include="BFF\Functions\FunctionTest.h" />
+    <ClInclude Include="BFF\Functions\FunctionUnity.h" />
+    <ClInclude Include="BFF\Functions\FunctionUsing.h" />
+    <ClInclude Include="BFF\Functions\FunctionVCXProject.h" />
+    <ClInclude Include="Cache\Cache.h" />
+    <ClInclude Include="Cache\CachePlugin.h" />
+    <ClInclude Include="Cache\CachePluginInterface.h" />
+    <ClInclude Include="Cache\ICache.h" />
+    <ClInclude Include="Error.h" />
+    <ClInclude Include="FBuild.h" />
+    <ClInclude Include="FBuildOptions.h" />
+    <ClInclude Include="FBuildVersion.h" />
+    <ClInclude Include="FLog.h" />
+    <ClInclude Include="Graph\AliasNode.h" />
+    <ClInclude Include="Graph\CompilerNode.h" />
+    <ClInclude Include="Graph\CopyDirNode.h" />
+    <ClInclude Include="Graph\CopyNode.h" />
+    <ClInclude Include="Graph\CSNode.h" />
+    <ClInclude Include="Graph\Dependencies.h" />
+    <ClInclude Include="Graph\DirectoryListNode.h" />
+    <ClInclude Include="Graph\DLLNode.h" />
+    <ClInclude Include="Graph\ExecNode.h" />
+    <ClInclude Include="Graph\ExeNode.h" />
+    <ClInclude Include="Graph\FileNode.h" />
+    <ClInclude Include="Graph\LibraryNode.h" />
+    <ClInclude Include="Graph\LinkerNode.h" />
+    <ClInclude Include="Graph\MetaData\Meta_Name.h" />
+    <ClInclude Include="Graph\Node.h" />
+    <ClInclude Include="Graph\NodeGraph.h" />
+    <ClInclude Include="Graph\NodeProxy.h" />
+    <ClInclude Include="Graph\ObjectListNode.h" />
+    <ClInclude Include="Graph\ObjectNode.h" />
+    <ClInclude Include="Graph\SLNNode.h" />
+    <ClInclude Include="Graph\TestNode.h" />
+    <ClInclude Include="Graph\UnityNode.h" />
+    <ClInclude Include="Graph\VCXProjectNode.h" />
+    <ClInclude Include="Helpers\Args.h" />
+    <ClInclude Include="Helpers\CIncludeParser.h" />
+    <ClInclude Include="Helpers\Compressor.h" />
+    <ClInclude Include="Helpers\FBuildStats.h" />
+    <ClInclude Include="Helpers\Report.h" />
+    <ClInclude Include="Helpers\ResponseFile.h" />
+    <ClInclude Include="Helpers\SLNGenerator.h" />
+    <ClInclude Include="Helpers\ToolManifest.h" />
+    <ClInclude Include="Helpers\VSProjectGenerator.h" />
+    <ClInclude Include="Protocol\Client.h" />
+    <ClInclude Include="Protocol\Protocol.h" />
+    <ClInclude Include="Protocol\Server.h" />
+    <ClInclude Include="WorkerPool\Job.h" />
+    <ClInclude Include="WorkerPool\JobQueue.h" />
+    <ClInclude Include="WorkerPool\JobQueueRemote.h" />
+    <ClInclude Include="WorkerPool\WorkerBrokerage.h" />
+    <ClInclude Include="WorkerPool\WorkerThread.h" />
+    <ClInclude Include="WorkerPool\WorkerThreadRemote.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3F70AF47-108A-4DB2-994E-1C327F8A0F5B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FBuildCore</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;__WINDOWS__;_DEBUG;DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN64;__WINDOWS__;_DEBUG;DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;__WINDOWS__;NDEBUG;RELEASE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>__WINDOWS__;WIN64;NDEBUG;RELEASE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -3,12 +3,10 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "Mem.h"
-#include "Core/Env/Assert.h"
-#include "Core/Env/Types.h"
-#include "Core/Mem/MemTracker.h"
+#include "../Env/Assert.h"
+#include "../Env/Types.h"
+#include "MemTracker.h"
 
 #include <stdlib.h>
 

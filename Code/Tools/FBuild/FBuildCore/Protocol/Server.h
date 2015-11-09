@@ -6,8 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Network/TCPConnectionPool.h"
-#include "Core/Time/Timer.h"
+#include "../../../../Core/Network/TCPConnectionPool.h"
+#include "../../../../Core/Time/Timer.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

@@ -3,18 +3,16 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "FunctionCSAssembly.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFIterator.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFParser.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFStackFrame.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFVariable.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/Graph/DirectoryListNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/CSNode.h"
+#include "../../FBuild.h"
+#include "../../FLog.h"
+#include "../BFFIterator.h"
+#include "../BFFParser.h"
+#include "../BFFStackFrame.h"
+#include "../BFFVariable.h"
+#include "../../Graph/NodeGraph.h"
+#include "../../Graph/DirectoryListNode.h"
+#include "../../Graph/CSNode.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

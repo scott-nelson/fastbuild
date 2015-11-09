@@ -6,12 +6,12 @@
 #include "UnitTestManager.h"
 #include "UnitTest.h"
 
-#include "Core/Env/Assert.h"
-#include "Core/Env/Types.h"
-#include "Core/Mem/MemTracker.h"
-#include "Core/Profile/Profile.h"
-#include "Core/Strings/AString.h"
-#include "Core/Tracing/Tracing.h"
+#include "../Core/Env/Assert.h"
+#include "../Core/Env/Types.h"
+#include "../Core/Mem/MemTracker.h"
+#include "../Core/Profile/Profile.h"
+#include "../Core/Strings/AString.h"
+#include "../Core/Tracing/Tracing.h"
 
 #include <string.h>
 #if defined( __WINDOWS__ )

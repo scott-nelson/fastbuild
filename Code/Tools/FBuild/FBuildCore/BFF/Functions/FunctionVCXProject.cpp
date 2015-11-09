@@ -3,19 +3,17 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 // FBuild
 #include "FunctionVCXProject.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFStackFrame.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFVariable.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/Graph/DirectoryListNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/VCXProjectNode.h"
+#include "../../FBuild.h"
+#include "../BFFStackFrame.h"
+#include "../BFFVariable.h"
+#include "../../Graph/NodeGraph.h"
+#include "../../Graph/DirectoryListNode.h"
+#include "../../Graph/VCXProjectNode.h"
 
 // Core
-#include "Core/Strings/AStackString.h"
+#include "../../../../../Core/Strings/AStackString.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

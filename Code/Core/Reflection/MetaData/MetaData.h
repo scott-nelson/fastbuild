@@ -10,7 +10,7 @@ class IMetaData;
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Env/Types.h"
+#include "../../Env/Types.h"
 
 // Chaining operator for reflection macros
 //------------------------------------------------------------------------------

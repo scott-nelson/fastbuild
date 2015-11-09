@@ -4,9 +4,8 @@
 // Includes
 //------------------------------------------------------------------------------
 // Core
-#include "Core/PrecompiledHeader.h"
 #include "Mat44.h"
-#include "Core/Math/Vec3.h"
+#include "Vec3.h"
 
 // system
 #include <memory.h>

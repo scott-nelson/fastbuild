@@ -3,12 +3,10 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "BFFVariable.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
+#include "../FLog.h"
 
-#include "Core/Mem/Mem.h"
+#include "../../../../Core/Mem/Mem.h"
 
 // Static Data
 //------------------------------------------------------------------------------

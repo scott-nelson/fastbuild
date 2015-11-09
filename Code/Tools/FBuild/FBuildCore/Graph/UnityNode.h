@@ -7,8 +7,8 @@
 // Includes
 //------------------------------------------------------------------------------
 #include "FileNode.h"
-#include "Core/Containers/Array.h"
-#include "Core/FileIO/FileIO.h"
+#include "../../../../Core/Containers/Array.h"
+#include "../../../../Core/FileIO/FileIO.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

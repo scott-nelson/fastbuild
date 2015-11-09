@@ -4,17 +4,15 @@
 //------------------------------------------------------------------------------
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "TCPConnectionPool.h"
 
 // Core
-#include "Core/Mem/Mem.h"
-#include "Core/Network/Network.h"
-#include "Core/Strings/AString.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Profile/Profile.h"
-#include "Core/Time/Timer.h"
+#include "../Mem/Mem.h"
+#include "Network.h"
+#include "../Strings/AString.h"
+#include "../Strings/AStackString.h"
+#include "../Profile/Profile.h"
+#include "../Time/Timer.h"
 
 // System
 #if defined( __WINDOWS__ )

@@ -3,9 +3,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
 #include "ReflectionIter.h"
-#include "Core/Reflection/ReflectionInfo.h"
+#include "ReflectionInfo.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

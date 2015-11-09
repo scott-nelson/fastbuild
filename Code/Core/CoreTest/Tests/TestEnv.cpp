@@ -3,11 +3,11 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../TestFramework/UnitTest.h"
 
 // Core
-#include <Core/Env/Env.h>
-#include <Core/Strings/AStackString.h>
+#include "../../Env/Env.h"
+#include "../../Strings/AStackString.h"
 
 // TestEnv
 //------------------------------------------------------------------------------

@@ -3,12 +3,10 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "ConstMemoryStream.h"
 
 // Core
-#include "Core/Env/Types.h"
+#include "../Env/Types.h"
 
 #include <memory.h> // for memcpy
 

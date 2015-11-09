@@ -3,15 +3,13 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "NodeGraph.h"
 
-#include "Tools/FBuild/FBuildCore/BFF/BFFParser.h"
-#include "Tools/FBuild/FBuildCore/BFF/Functions/FunctionSettings.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/JobQueue.h"
+#include "../BFF/BFFParser.h"
+#include "../BFF/Functions/FunctionSettings.h"
+#include "../FLog.h"
+#include "../FBuild.h"
+#include "../WorkerPool/JobQueue.h"
 
 #include "AliasNode.h"
 #include "CompilerNode.h"
@@ -32,19 +30,19 @@
 #include "VCXProjectNode.h"
 
 // Core
-#include "Core/Containers/AutoPtr.h"
-#include "Core/Env/Env.h"
-#include "Core/FileIO/ConstMemoryStream.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Math/CRC32.h"
-#include "Core/Math/Murmur3.h"
-#include "Core/Mem/Mem.h"
-#include "Core/Process/Thread.h"
-#include "Core/Profile/Profile.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../../../Core/Containers/AutoPtr.h"
+#include "../../../../Core/Env/Env.h"
+#include "../../../../Core/FileIO/ConstMemoryStream.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/FileIO/PathUtils.h"
+#include "../../../../Core/Math/CRC32.h"
+#include "../../../../Core/Math/Murmur3.h"
+#include "../../../../Core/Mem/Mem.h"
+#include "../../../../Core/Process/Thread.h"
+#include "../../../../Core/Profile/Profile.h"
+#include "../../../../Core/Strings/AStackString.h"
+#include "../../../../Core/Tracing/Tracing.h"
 
 #include <string.h>
 

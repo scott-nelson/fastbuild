@@ -7,12 +7,12 @@
 // Includes
 //------------------------------------------------------------------------------
 // FBuild
-#include "Tools/FBuild/FBuildCore/Graph/Dependencies.h"
+#include "Dependencies.h"
 
 // Core
-#include "Core/Containers/Array.h"
-#include "Core/Reflection/Object.h"
-#include "Core/Strings/AString.h"
+#include "../../../../Core/Containers/Array.h"
+#include "../../../../Core/Reflection/Object.h"
+#include "../../../../Core/Strings/AString.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

@@ -3,14 +3,14 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildTest/Tests/FBuildTest.h"
+#include "FBuildTest.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
+#include "../../FBuildCore/FBuild.h"
 
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/Process/Process.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/Process/Process.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 /*
 Exec node definiton:

@@ -21,8 +21,8 @@
 #else
 	// Includes
 	//------------------------------------------------------------------------------
-	#include "Core/Env/Types.h"
-	#include "Core/Process/Mutex.h"
+	#include "../Env/Types.h"
+	#include "../Process/Mutex.h"
 
 	// Forward Declarations
 	//------------------------------------------------------------------------------

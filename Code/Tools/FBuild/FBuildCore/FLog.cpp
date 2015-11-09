@@ -3,16 +3,14 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "FLog.h"
 
-#include "Tools/FBuild/FBuildCore/WorkerPool/WorkerThread.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
+#include "WorkerPool/WorkerThread.h"
+#include "FBuild.h"
 
-#include "Core/Env/Types.h"
-#include "Core/Profile/Profile.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../../Core/Env/Types.h"
+#include "../../../Core/Profile/Profile.h"
+#include "../../../Core/Tracing/Tracing.h"
 
 #include <stdarg.h>
 #include <stdio.h>

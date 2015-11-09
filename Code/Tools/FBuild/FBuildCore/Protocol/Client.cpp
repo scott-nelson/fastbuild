@@ -3,26 +3,24 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "Client.h"
 
-#include "Tools/FBuild/FBuildCore/Protocol/Protocol.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Graph/CompilerNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/FileNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/Node.h"
-#include "Tools/FBuild/FBuildCore/Graph/ObjectNode.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/Job.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/JobQueue.h"
+#include "Protocol.h"
+#include "../FBuild.h"
+#include "../FLog.h"
+#include "../Graph/CompilerNode.h"
+#include "../Graph/FileNode.h"
+#include "../Graph/Node.h"
+#include "../Graph/ObjectNode.h"
+#include "../WorkerPool/Job.h"
+#include "../WorkerPool/JobQueue.h"
 
-#include "Core/FileIO/ConstMemoryStream.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/FileIO/MemoryStream.h"
-#include "Core/Math/Random.h"
-#include "Core/Profile/Profile.h"
+#include "../../../../Core/FileIO/ConstMemoryStream.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/FileIO/MemoryStream.h"
+#include "../../../../Core/Math/Random.h"
+#include "../../../../Core/Profile/Profile.h"
 
 // Defines
 //------------------------------------------------------------------------------

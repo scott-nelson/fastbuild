@@ -6,9 +6,9 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../../TestFramework/UnitTest.h"
 
-#include "Tools/FBuild/FBuildCore/Graph/Node.h"
+#include "../../FBuildCore/Graph/Node.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

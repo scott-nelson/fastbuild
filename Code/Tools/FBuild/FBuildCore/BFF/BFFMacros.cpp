@@ -3,14 +3,12 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "BFFMacros.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
+#include "../FLog.h"
 
 // Core
-#include "Core/Env/Assert.h"
-#include "Core/Strings/AString.h"
+#include "../../../../Core/Env/Assert.h"
+#include "../../../../Core/Strings/AString.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

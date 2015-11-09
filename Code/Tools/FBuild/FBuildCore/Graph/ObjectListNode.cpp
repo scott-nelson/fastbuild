@@ -3,22 +3,20 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "ObjectListNode.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Graph/CompilerNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/DirectoryListNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/Graph/ObjectNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/UnityNode.h"
+#include "../FBuild.h"
+#include "../FLog.h"
+#include "CompilerNode.h"
+#include "DirectoryListNode.h"
+#include "NodeGraph.h"
+#include "ObjectNode.h"
+#include "UnityNode.h"
 
 // Core
-#include "Core/FileIO/IOStream.h"
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/FileIO/IOStream.h"
+#include "../../../../Core/FileIO/PathUtils.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

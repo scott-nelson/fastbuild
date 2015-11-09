@@ -6,8 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Env/Types.h"
-#include "Tools/FBuild/FBuildCore/Graph/Node.h"
+#include "../../../../Core/Env/Types.h"
+#include "../Graph/Node.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

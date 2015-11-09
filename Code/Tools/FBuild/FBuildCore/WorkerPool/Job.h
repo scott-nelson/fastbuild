@@ -6,8 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Env/Types.h"
-#include "Core/Strings/AString.h"
+#include "../../../../Core/Env/Types.h"
+#include "../../../../Core/Strings/AString.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

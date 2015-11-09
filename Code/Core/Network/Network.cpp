@@ -3,19 +3,18 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "Network.h"
 
 // Core
-#include "Core/Strings/AString.h"
-#include "Core/Network/NetworkStartupHelper.h"
-#include "Core/Process/Thread.h"
-#include "Core/Profile/Profile.h"
+#include "../Strings/AString.h"
+#include "NetworkStartupHelper.h"
+#include "../Process/Thread.h"
+#include "../Profile/Profile.h"
 
 // system
 #if defined( __WINDOWS__ )
-    #include <Winsock2.h>
+    //#include <Winsock2.h>
+	#include <Ws2tcpip.h>
 #endif
 #if defined( __LINUX__ ) || defined( __APPLE__ )
     #include <arpa/inet.h>
@@ -51,6 +50,7 @@
 {
     // see if string it already in ip4 format
     uint32_t ip = inet_addr( hostName.Get() );
+	//INT ip = InetPton(AF_INET, hostName.Get(), nullptr);
     if ( ip != INADDR_NONE )
     {
         return ip;

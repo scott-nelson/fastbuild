@@ -3,23 +3,22 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
 #include "ReflectionInfo.h"
-#include "Core/Containers/AutoPtr.h"
-#include "Core/FileIO/ConstMemoryStream.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/FileIO/MemoryStream.h"
-#include "Core/Math/CRC32.h"
-#include "Core/Process/Process.h"
-#include "Core/Reflection/Container.h"
-#include "Core/Reflection/Object.h"
-#include "Core/Reflection/ReflectedProperty.h"
-#include "Core/Reflection/Serialization/TextReader.h"
-#include "Core/Reflection/Serialization/TextWriter.h"
-#include "Core/Strings/AString.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Tracing/Tracing.h"
+#include "../Containers/AutoPtr.h"
+#include "../FileIO/ConstMemoryStream.h"
+#include "../FileIO/FileIO.h"
+#include "../FileIO/FileStream.h"
+#include "../FileIO/MemoryStream.h"
+#include "../Math/CRC32.h"
+#include "../Process/Process.h"
+#include "Container.h"
+#include "Object.h"
+#include "ReflectedProperty.h"
+#include "Serialization/TextReader.h"
+#include "Serialization/TextWriter.h"
+#include "../Strings/AString.h"
+#include "../Strings/AStackString.h"
+#include "../Tracing/Tracing.h"
 
 // System
 #include <memory.h>

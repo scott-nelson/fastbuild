@@ -3,12 +3,10 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "Thread.h"
-#include "Core/Env/Assert.h"
-#include "Core/Mem/Mem.h"
-#include "Core/Profile/Profile.h"
+#include "../Env/Assert.h"
+#include "../Mem/Mem.h"
+#include "../Profile/Profile.h"
 
 // system
 #if defined( __WINDOWS__ )

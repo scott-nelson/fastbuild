@@ -3,21 +3,19 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "Server.h"
 #include "Protocol.h"
 
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Helpers/ToolManifest.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/Job.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/JobQueueRemote.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/WorkerThreadRemote.h"
+#include "../FLog.h"
+#include "../Helpers/ToolManifest.h"
+#include "../WorkerPool/Job.h"
+#include "../WorkerPool/JobQueueRemote.h"
+#include "../WorkerPool/WorkerThreadRemote.h"
 
-#include "Core/FileIO/ConstMemoryStream.h"
-#include "Core/FileIO/MemoryStream.h"
-#include "Core/Profile/Profile.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/FileIO/ConstMemoryStream.h"
+#include "../../../../Core/FileIO/MemoryStream.h"
+#include "../../../../Core/Profile/Profile.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // Defines
 //------------------------------------------------------------------------------

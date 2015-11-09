@@ -3,17 +3,15 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "ResponseFile.h"
 
 // FBuild
-#include "Tools/FBuild/FBuildCore/WorkerPool/WorkerThread.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
+#include "../WorkerPool/WorkerThread.h"
+#include "../FLog.h"
 
 // Core
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/PathUtils.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/PathUtils.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

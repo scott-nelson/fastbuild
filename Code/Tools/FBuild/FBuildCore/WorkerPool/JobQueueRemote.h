@@ -6,12 +6,12 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Containers/Array.h"
-#include "Core/Containers/Singleton.h"
+#include "../../../../Core/Containers/Array.h"
+#include "../../../../Core/Containers/Singleton.h"
 
-#include "Tools/FBuild/FBuildCore/Graph/Node.h"
-#include "Core/Process/Mutex.h"
-#include "Core/Process/Semaphore.h"
+#include "../Graph/Node.h"
+#include "../../../../Core/Process/Mutex.h"
+#include "../../../../Core/Process/Semaphore.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

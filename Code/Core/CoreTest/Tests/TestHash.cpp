@@ -3,16 +3,16 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../TestFramework/UnitTest.h"
 
-#include "Core/Containers/AutoPtr.h"
-#include "Core/Math/CRC32.h"
-#include "Core/Math/Murmur3.h"
-#include "Core/Math/Random.h"
-#include "Core/Math/xxHash.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Time/Timer.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../Containers/AutoPtr.h"
+#include "../../Math/CRC32.h"
+#include "../../Math/Murmur3.h"
+#include "../../Math/Random.h"
+#include "../../Math/xxHash.h"
+#include "../../Strings/AStackString.h"
+#include "../../Time/Timer.h"
+#include "../../Tracing/Tracing.h"
 
 #include <memory.h>
 

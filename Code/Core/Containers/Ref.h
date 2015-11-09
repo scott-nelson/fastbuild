@@ -6,7 +6,7 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Reflection/RefObject.h"
+#include "../Reflection/RefObject.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

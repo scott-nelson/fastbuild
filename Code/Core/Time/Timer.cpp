@@ -3,10 +3,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "Timer.h"
-#include "Core/Env/Assert.h"
+#include "../Env/Assert.h"
 
 // system
 #if defined( __WINDOWS__ )

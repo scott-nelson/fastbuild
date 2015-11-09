@@ -3,12 +3,10 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "Env.h"
 
 // Core
-#include "Core/Strings/AStackString.h"
+#include "../Strings/AStackString.h"
 
 #if defined( __WINDOWS__ )
     #include <windows.h>

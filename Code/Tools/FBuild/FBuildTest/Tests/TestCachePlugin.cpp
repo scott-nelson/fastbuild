@@ -4,8 +4,8 @@
 // Includes
 //------------------------------------------------------------------------------
 #include "FBuildTest.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Core/Strings/AStackString.h"
+#include "../../FBuildCore/FBuild.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // TestCachePlugin
 //------------------------------------------------------------------------------

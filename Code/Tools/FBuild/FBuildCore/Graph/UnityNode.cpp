@@ -3,24 +3,22 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "UnityNode.h"
 #include "DirectoryListNode.h"
 
-#include "Tools/FBuild/FBuildCore/BFF/Functions/Function.h" // TODO:C Remove this
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/Graph/ObjectNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/ObjectListNode.h"
+#include "../BFF/Functions/Function.h" // TODO:C Remove this
+#include "../FBuild.h"
+#include "../FLog.h"
+#include "NodeGraph.h"
+#include "ObjectNode.h"
+#include "ObjectListNode.h"
 
 // Core
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Process/Process.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/FileIO/PathUtils.h"
+#include "../../../../Core/Process/Process.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // Reflection
 //------------------------------------------------------------------------------

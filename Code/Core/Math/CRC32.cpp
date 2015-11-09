@@ -3,11 +3,9 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "CRC32.h"
 
-#include "Core/Math/Conversions.h"
+#include "Conversions.h"
 
 // CRC polynomial table
 //------------------------------------------------------------------------------

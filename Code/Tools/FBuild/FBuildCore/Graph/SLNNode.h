@@ -8,12 +8,12 @@
 //------------------------------------------------------------------------------
 #include "FileNode.h"
 
-#include "Tools/FBuild/FBuildCore/Helpers/VSProjectGenerator.h"
-#include "Tools/FBuild/FBuildCore/Helpers/SLNGenerator.h"
+#include "../Helpers/VSProjectGenerator.h"
+#include "../Helpers/SLNGenerator.h"
 
-#include "Core/Containers/Array.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/Strings/AString.h"
+#include "../../../../Core/Containers/Array.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/Strings/AString.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

@@ -3,14 +3,12 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "FunctionTest.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFVariable.h"
-#include "Tools/FBuild/FBuildCore/Graph/AliasNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/Graph/TestNode.h"
+#include "../../FBuild.h"
+#include "../BFFVariable.h"
+#include "../../Graph/AliasNode.h"
+#include "../../Graph/NodeGraph.h"
+#include "../../Graph/TestNode.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

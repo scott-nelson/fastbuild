@@ -3,18 +3,16 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "FBuildStats.h"
 
 // FBuild
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/Helpers/Report.h"
+#include "../FBuild.h"
+#include "Report.h"
 
 // Core
-#include "Core/Profile/Profile.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../../../Core/Profile/Profile.h"
+#include "../../../../Core/Strings/AStackString.h"
+#include "../../../../Core/Tracing/Tracing.h"
 
 // NodeCostSorter
 //------------------------------------------------------------------------------

@@ -3,17 +3,15 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "FunctionSettings.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFIterator.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFStackFrame.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFVariable.h"
+#include "../../FBuild.h"
+#include "../../FLog.h"
+#include "../BFFIterator.h"
+#include "../BFFStackFrame.h"
+#include "../BFFVariable.h"
 
-#include "Core/Containers/AutoPtr.h"
-#include "Core/Env/Env.h"
+#include "../../../../../Core/Containers/AutoPtr.h"
+#include "../../../../../Core/Env/Env.h"
 
 // Static Data
 //------------------------------------------------------------------------------

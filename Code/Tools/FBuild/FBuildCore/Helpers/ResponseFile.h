@@ -10,8 +10,8 @@ class AString;
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/FileIO/FileStream.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // ResponseFile
 //------------------------------------------------------------------------------

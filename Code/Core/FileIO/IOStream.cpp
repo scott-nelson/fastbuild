@@ -3,11 +3,9 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "IOStream.h"
-#include "Core/Math/Conversions.h"
-#include "Core/Strings/AString.h"
+#include "../Math/Conversions.h"
+#include "../Strings/AString.h"
 
 // Read (AString)
 //------------------------------------------------------------------------------

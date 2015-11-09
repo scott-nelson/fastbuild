@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TestMain.cpp" />
+    <ClCompile Include="Tests\TestCUDA.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestDistributed.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestDLL.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestExe.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestExec.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestGraph.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestIncludeParser.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestObjectList.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestPrecompiledHeaders.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestProjectGeneration.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestResources.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestUnity.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestVariableStack.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\FBuildTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestAlias.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestBFFParsing.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestBuildAndLinkLibrary.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestBuildFBuild.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestCachePlugin.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestCLR.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestCompressor.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestCopy.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestCSharp.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\TestBuildAndLinkLibrary\b.cpp">
+      <Filter>Data\TestBuildAndLinkLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\TestBuildAndLinkLibrary\c.cpp">
+      <Filter>Data\TestBuildAndLinkLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\TestBuildAndLinkLibrary\a.cpp">
+      <Filter>Data\TestBuildAndLinkLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\TestCachePlugin\Plugin.cpp">
+      <Filter>Data\TestCachePlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\TestCachePlugin\TestA.cpp">
+      <Filter>Data\TestCachePlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\TestCLR\exe.cxx">
+      <Filter>Data\TestCLR</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\TestCompressor\TestPreprocessedFile.cpp">
+      <Filter>Data\TestCompressor</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\TestCLR\clr_a.cpp">
+      <Filter>Data\TestCLR</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\TestCLR\clr_b.cpp">
+      <Filter>Data\TestCLR</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\TestCLR\clr_c.cpp">
+      <Filter>Data\TestCLR</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{a142ec6b-ea70-4031-b4d3-1eef91aecc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{2934e245-d2cb-4ab6-84f7-f1f952998c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\TestBuildAndLinkLibrary">
+      <UniqueIdentifier>{22756252-6134-4faf-b502-a59e5c54d6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\TestCachePlugin">
+      <UniqueIdentifier>{09cd1fab-fd16-43e3-930d-e616fea407c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\TestCLR">
+      <UniqueIdentifier>{b8cd01d0-9cec-45b3-8b79-918c8d6dfcba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\TestCompressor">
+      <UniqueIdentifier>{41f16302-a474-41f4-a57d-3705fd7fdeb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tests\FBuildTest.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\TestBuildAndLinkLibrary\b.h">
+      <Filter>Data\TestBuildAndLinkLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\TestBuildAndLinkLibrary\c.h">
+      <Filter>Data\TestBuildAndLinkLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\TestBuildAndLinkLibrary\a.h">
+      <Filter>Data\TestBuildAndLinkLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\TestCLR\a.h">
+      <Filter>Data\TestCLR</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

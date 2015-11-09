@@ -6,16 +6,16 @@
 #include "FBuildTest.h"
 
 // FBuild
-#include "Tools/FBuild/FBuildCore/Helpers/VSProjectGenerator.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
+#include "../../FBuildCore/Helpers/VSProjectGenerator.h"
+#include "../../FBuildCore/FBuild.h"
+#include "../../FBuildCore/Graph/NodeGraph.h"
 
 // Core
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/Process/Thread.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/Process/Thread.h"
+#include "../../../../Core/Strings/AStackString.h"
+#include "../../../../Core/Tracing/Tracing.h"
 
 // TestProjectGeneration
 //------------------------------------------------------------------------------

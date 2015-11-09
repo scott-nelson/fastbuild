@@ -3,14 +3,12 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "FileStream.h"
 
 // Core
-#include "Core/Env/Assert.h"
-#include "Core/Strings/AString.h"
-#include "Core/Strings/AStackString.h"
+#include "../Env/Assert.h"
+#include "../Strings/AString.h"
+#include "../Strings/AStackString.h"
 
 // system
 #include <stdio.h>

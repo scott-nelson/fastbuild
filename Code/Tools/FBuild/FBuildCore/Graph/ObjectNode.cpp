@@ -3,34 +3,32 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "ObjectNode.h"
 
-#include "Tools/FBuild/FBuildCore/Cache/ICache.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Graph/CompilerNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeProxy.h"
-#include "Tools/FBuild/FBuildCore/Helpers/CIncludeParser.h"
-#include "Tools/FBuild/FBuildCore/Helpers/Compressor.h"
-#include "Tools/FBuild/FBuildCore/Helpers/ResponseFile.h"
-#include "Tools/FBuild/FBuildCore/Helpers/ToolManifest.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/Job.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/JobQueue.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/WorkerThread.h"
+#include "../Cache/ICache.h"
+#include "../FBuild.h"
+#include "../FLog.h"
+#include "CompilerNode.h"
+#include "NodeGraph.h"
+#include "NodeProxy.h"
+#include "../Helpers/CIncludeParser.h"
+#include "../Helpers/Compressor.h"
+#include "../Helpers/ResponseFile.h"
+#include "../Helpers/ToolManifest.h"
+#include "../WorkerPool/Job.h"
+#include "../WorkerPool/JobQueue.h"
+#include "../WorkerPool/WorkerThread.h"
 
 // Core
-#include "Core/Env/Env.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Math/Murmur3.h"
-#include "Core/Process/Process.h"
-#include "Core/Process/Thread.h"
-#include "Core/Tracing/Tracing.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/Env/Env.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/FileIO/PathUtils.h"
+#include "../../../../Core/Math/Murmur3.h"
+#include "../../../../Core/Process/Process.h"
+#include "../../../../Core/Process/Thread.h"
+#include "../../../../Core/Tracing/Tracing.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 #include <string.h>
 #if defined( __WINDOWS__ )

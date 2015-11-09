@@ -6,7 +6,7 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Env/Types.h"
+#include "../Env/Types.h"
 
 #if defined( __LINUX__ ) || defined( __APPLE__ )
     #include <pthread.h>

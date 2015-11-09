@@ -3,20 +3,18 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "ProfileManager.h"
 
 #ifdef PROFILING_ENABLED
 
-#include "Core/FileIO/FileStream.h"
-#include "Core/Mem/Mem.h"
-#include "Core/Process/Mutex.h"
-#include "Core/Process/Thread.h"
-#include "Core/Profile/Profile.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Time/Timer.h"
-#include "Core/Tracing/Tracing.h"
+#include "../FileIO/FileStream.h"
+#include "../Mem/Mem.h"
+#include "../Process/Mutex.h"
+#include "../Process/Thread.h"
+#include "Profile.h"
+#include "../Strings/AStackString.h"
+#include "../Time/Timer.h"
+#include "../Tracing/Tracing.h"
 
 // Static Data
 //------------------------------------------------------------------------------

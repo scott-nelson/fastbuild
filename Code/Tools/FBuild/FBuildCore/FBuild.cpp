@@ -3,8 +3,6 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "FBuild.h"
 
 #include "FLog.h"
@@ -23,17 +21,17 @@
 #include "WorkerPool/JobQueue.h"
 #include "WorkerPool/WorkerThread.h"
 
-#include "Core/Env/Assert.h"
-#include "Core/Env/Env.h"
-#include "Core/Env/Types.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/FileIO/MemoryStream.h"
-#include "Core/Math/Murmur3.h"
-#include "Core/Process/SystemMutex.h"
-#include "Core/Profile/Profile.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../../Core/Env/Assert.h"
+#include "../../../Core/Env/Env.h"
+#include "../../../Core/Env/Types.h"
+#include "../../../Core/FileIO/FileIO.h"
+#include "../../../Core/FileIO/FileStream.h"
+#include "../../../Core/FileIO/MemoryStream.h"
+#include "../../../Core/Math/Murmur3.h"
+#include "../../../Core/Process/SystemMutex.h"
+#include "../../../Core/Profile/Profile.h"
+#include "../../../Core/Strings/AStackString.h"
+#include "../../../Core/Tracing/Tracing.h"
 
 #include <stdio.h>
 #include <time.h>

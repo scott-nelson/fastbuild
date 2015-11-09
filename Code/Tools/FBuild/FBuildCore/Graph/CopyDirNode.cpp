@@ -3,18 +3,17 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "CopyDirNode.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Graph/CopyNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/DirectoryListNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
+#include "../FBuild.h"
+#include "../FLog.h"
+#include "CopyNode.h"
+#include "DirectoryListNode.h"
+#include "NodeGraph.h"
 
 //#include "Core/Env/Env.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/FileIO/IOStream.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

@@ -10,8 +10,8 @@
     #include <winsock2.h>
 #endif
 
-#include "Core/Env/Types.h"
-#include "Core/Process/Mutex.h"
+#include "../Env/Types.h"
+#include "../Process/Mutex.h"
 
 // NetworkStartup
 //------------------------------------------------------------------------------

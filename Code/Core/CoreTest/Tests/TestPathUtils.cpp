@@ -3,10 +3,10 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../TestFramework/UnitTest.h"
 
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Strings/AStackString.h"
+#include "../../FileIO/PathUtils.h"
+#include "../../Strings/AStackString.h"
 
 // TestPathUtils
 //------------------------------------------------------------------------------

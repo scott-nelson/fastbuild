@@ -3,21 +3,19 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 // FBuild
 #include "FunctionSLN.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFStackFrame.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFVariable.h"
-#include "Tools/FBuild/FBuildCore/Graph/AliasNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/Graph/SLNNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/VCXProjectNode.h"
+#include "../../FBuild.h"
+#include "../BFFStackFrame.h"
+#include "../BFFVariable.h"
+#include "../../Graph/AliasNode.h"
+#include "../../Graph/NodeGraph.h"
+#include "../../Graph/SLNNode.h"
+#include "../../Graph/VCXProjectNode.h"
 
 // Core
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../../Core/FileIO/PathUtils.h"
+#include "../../../../../Core/Strings/AStackString.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

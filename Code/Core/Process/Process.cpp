@@ -3,16 +3,14 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "Process.h"
 
-#include "Core/Env/Assert.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/Math/Conversions.h"
-#include "Core/Process/Thread.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Strings/AString.h"
+#include "../Env/Assert.h"
+#include "../FileIO/FileIO.h"
+#include "../Math/Conversions.h"
+#include "Thread.h"
+#include "../Strings/AStackString.h"
+#include "../Strings/AString.h"
 
 #if defined( __WINDOWS__ )
     #include <windows.h>

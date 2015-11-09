@@ -6,8 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Reflection/ReflectionMacros.h"
-#include "Core/Reflection/RefObject.h"
+#include "../ReflectionMacros.h"
+#include "../RefObject.h"
 
 // IMetaData
 //------------------------------------------------------------------------------

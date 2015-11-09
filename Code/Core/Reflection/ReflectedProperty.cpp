@@ -3,20 +3,19 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
 #include "ReflectedProperty.h"
-#include "Core/Containers/Array.h"
-#include "Core/Containers/Ref.h"
-#include "Core/Containers/WeakRef.h"
-#include "Core/Math/CRC32.h"
-#include "Core/Math/Mat44.h"
-#include "Core/Math/Vec2.h"
-#include "Core/Math/Vec3.h"
-#include "Core/Math/Vec4.h"
-#include "Core/Reflection/Object.h"
-#include "Core/Reflection/PropertyType.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Strings/AString.h"
+#include "../Containers/Array.h"
+#include "../Containers/Ref.h"
+#include "../Containers/WeakRef.h"
+#include "../Math/CRC32.h"
+#include "../Math/Mat44.h"
+#include "../Math/Vec2.h"
+#include "../Math/Vec3.h"
+#include "../Math/Vec4.h"
+#include "Object.h"
+#include "PropertyType.h"
+#include "../Strings/AStackString.h"
+#include "../Strings/AString.h"
 
 // System
 #include <stdio.h>

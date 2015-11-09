@@ -6,7 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Reflection/MetaData/MetaDataInterface.h"
+#include "../../../../../Core/Reflection/MetaData/MetaDataInterface.h"
+#include "../../../../../Core/Strings/AString.h"
 
 // Meta_Name
 //------------------------------------------------------------------------------

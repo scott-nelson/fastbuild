@@ -3,22 +3,21 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
 #include "TextReader.h"
-#include "Core/Containers/Ref.h"
-#include "Core/Containers/WeakRef.h"
-#include "Core/FileIO/ConstMemoryStream.h"
-#include "Core/Math/Mat44.h"
-#include "Core/Math/Vec2.h"
-#include "Core/Math/Vec3.h"
-#include "Core/Math/Vec4.h"
-#include "Core/Reflection/Container.h"
-#include "Core/Reflection/Object.h"
-#include "Core/Reflection/PropertyType.h"
-#include "Core/Reflection/ReflectedProperty.h"
-#include "Core/Reflection/RefObject.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Strings/AString.h"
+#include "../../Containers/Ref.h"
+#include "../../Containers/WeakRef.h"
+#include "../../FileIO/ConstMemoryStream.h"
+#include "../../Math/Mat44.h"
+#include "../../Math/Vec2.h"
+#include "../../Math/Vec3.h"
+#include "../../Math/Vec4.h"
+#include "../../Reflection/Container.h"
+#include "../../Reflection/Object.h"
+#include "../../Reflection/PropertyType.h"
+#include "../../Reflection/ReflectedProperty.h"
+#include "../../Reflection/RefObject.h"
+#include "../../Strings/AStackString.h"
+#include "../../Strings/AString.h"
 
 // system
 #include <stdarg.h>

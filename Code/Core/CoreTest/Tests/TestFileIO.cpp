@@ -3,15 +3,15 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../TestFramework/UnitTest.h"
 
 // Core
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/Math/Random.h"
-#include "Core/Process/Process.h"
-#include "Core/Process/Thread.h"
-#include "Core/Strings/AStackString.h"
+#include "../../FileIO/FileIO.h"
+#include "../../FileIO/FileStream.h"
+#include "../../Math/Random.h"
+#include "../../Process/Process.h"
+#include "../../Process/Thread.h"
+#include "../../Strings/AStackString.h"
 
 // TestFileIO
 //------------------------------------------------------------------------------

@@ -3,15 +3,16 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 // FBuildCore
 #include "FBuildOptions.h"
 
 // Core
-#include "Core/Env/Env.h"
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Math/Murmur3.h"
+#include "../../../Core/Env/Env.h"
+#include "../../../core/FileIO/FileIO.h"
+#include "../../../Core/FileIO/PathUtils.h"
+#include "../../../Core/Math/Murmur3.h"
+#include "../../../Core/Strings/AString.h"
+#include "../../../Core/Strings/AStackString.h"
 
 // system
 #if defined( __WINDOWS__ )

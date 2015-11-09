@@ -6,15 +6,15 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/FBuildOptions.h"
+#include "FBuildOptions.h"
 
 #include "Helpers/FBuildStats.h"
 #include "WorkerPool/WorkerBrokerage.h"
 
-#include "Core/Containers/Array.h"
-#include "Core/Containers/Singleton.h"
-#include "Core/Strings/AString.h"
-#include "Core/Time/Timer.h"
+#include "../../../Core/Containers/Array.h"
+#include "../../../Core/Containers/Singleton.h"
+#include "../../../Core/Strings/AString.h"
+#include "../../../Core/Time/Timer.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

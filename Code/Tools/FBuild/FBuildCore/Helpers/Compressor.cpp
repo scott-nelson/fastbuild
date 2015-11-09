@@ -3,18 +3,16 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "Compressor.h"
 
-#include "Core/Containers/AutoPtr.h"
-#include "Core/Env/Assert.h"
-#include "Core/Env/Types.h"
-#include "Core/Math/Conversions.h"
-#include "Core/Mem/Mem.h"
-#include "Core/Profile/Profile.h"
+#include "../../../../Core/Containers/AutoPtr.h"
+#include "../../../../Core/Env/Assert.h"
+#include "../../../../Core/Env/Types.h"
+#include "../../../../Core/Math/Conversions.h"
+#include "../../../../Core/Mem/Mem.h"
+#include "../../../../Core/Profile/Profile.h"
 
-#include "lz4.h"
+#include "../../../../../External/LZ4/lz4-r127/lz4.h"
 
 #include <memory.h>
 

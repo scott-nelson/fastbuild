@@ -3,12 +3,10 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "BFFStackFrame.h"
 #include "BFFVariable.h"
-#include "Core/Mem/Mem.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/Mem/Mem.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 //
 /*static*/ BFFStackFrame * BFFStackFrame::s_StackHead = nullptr;

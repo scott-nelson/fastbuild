@@ -3,19 +3,17 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "TestNode.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
+#include "../FBuild.h"
+#include "../FLog.h"
+#include "NodeGraph.h"
 
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/Math/Conversions.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Process/Process.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/Math/Conversions.h"
+#include "../../../../Core/Strings/AStackString.h"
+#include "../../../../Core/Process/Process.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

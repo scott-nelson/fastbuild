@@ -6,8 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Reflection/ReflectionInfo.h"
-#include "Core/Reflection/MetaData/MetaData.h"
+#include "ReflectionInfo.h"
+#include "MetaData/MetaData.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

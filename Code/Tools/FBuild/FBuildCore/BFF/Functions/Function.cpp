@@ -3,8 +3,6 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "Function.h"
 #include "FunctionAlias.h"
 #include "FunctionCompiler.h"
@@ -25,25 +23,25 @@
 #include "FunctionUsing.h"
 #include "FunctionVCXProject.h"
 
-#include "Tools/FBuild/FBuildCore/BFF/BFFIterator.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFParser.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFStackFrame.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFVariable.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/Graph/AliasNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/DirectoryListNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/FileNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/Graph/MetaData/Meta_Name.h"
+#include "../BFFIterator.h"
+#include "../BFFParser.h"
+#include "../BFFStackFrame.h"
+#include "../BFFVariable.h"
+#include "../../FBuild.h"
+#include "../../Graph/AliasNode.h"
+#include "../../Graph/DirectoryListNode.h"
+#include "../../Graph/FileNode.h"
+#include "../../Graph/NodeGraph.h"
+#include "../../Graph/MetaData/Meta_Name.h"
 
 // Core
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Reflection/ReflectedProperty.h"
-#include "Core/Reflection/MetaData/Meta_File.h"
-#include "Core/Reflection/MetaData/Meta_Optional.h"
-#include "Core/Reflection/MetaData/Meta_Path.h"
-#include "Core/Reflection/MetaData/Meta_Range.h"
+#include "../../../../../Core/FileIO/PathUtils.h"
+#include "../../../../../Core/Strings/AStackString.h"
+#include "../../../../../Core/Reflection/ReflectedProperty.h"
+#include "../../../../../Core/Reflection/MetaData/Meta_File.h"
+#include "../../../../../Core/Reflection/MetaData/Meta_Optional.h"
+#include "../../../../../Core/Reflection/MetaData/Meta_Path.h"
+#include "../../../../../Core/Reflection/MetaData/Meta_Range.h"
 
 // system
 #include <stdarg.h>

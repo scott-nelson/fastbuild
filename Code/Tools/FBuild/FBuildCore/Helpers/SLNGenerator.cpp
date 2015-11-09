@@ -3,18 +3,16 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "SLNGenerator.h"
 
-#include "Tools/FBuild/FBuildCore/Graph/VCXProjectNode.h"
-#include "Tools/FBuild/FBuildCore/Helpers/VSProjectGenerator.h"
+#include "../Graph/VCXProjectNode.h"
+#include "VSProjectGenerator.h"
 
 // Core
-#include "Core/FileIO/IOStream.h"
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Math/CRC32.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/FileIO/IOStream.h"
+#include "../../../../Core/FileIO/PathUtils.h"
+#include "../../../../Core/Math/CRC32.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // system
 #include <stdarg.h> // for va_args

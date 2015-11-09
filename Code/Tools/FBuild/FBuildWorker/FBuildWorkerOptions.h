@@ -7,10 +7,10 @@
 // Includes
 //------------------------------------------------------------------------------
 // FBuild
-#include "Tools/FBuild/FBuildWorker/Worker/WorkerSettings.h"
+#include "Worker/WorkerSettings.h"
 
 // Core
-#include "Core/Env/Types.h"
+#include "../../../Core/Env/Types.h"
 
 // Forward Declaration
 //------------------------------------------------------------------------------

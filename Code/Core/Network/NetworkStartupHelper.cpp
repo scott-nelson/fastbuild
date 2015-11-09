@@ -3,11 +3,9 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "NetworkStartupHelper.h"
 
-#include "Core/Env/Assert.h"
+#include "../Env/Assert.h"
 
 //------------------------------------------------------------------------------
 // Static Data

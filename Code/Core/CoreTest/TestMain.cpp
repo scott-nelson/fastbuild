@@ -3,8 +3,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
-#include "Core/Reflection/BindReflection.h"
+#include "../../TestFramework/UnitTest.h"
+#include "../Reflection/BindReflection.h"
 
 // main
 //------------------------------------------------------------------------------

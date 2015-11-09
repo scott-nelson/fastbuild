@@ -9,7 +9,7 @@
 #include "FileNode.h"
 
 // Core
-#include "Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileIO.h"
 
 // DirectoryListNode
 //------------------------------------------------------------------------------

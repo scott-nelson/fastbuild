@@ -6,9 +6,9 @@
 
 // includes
 //------------------------------------------------------------------------------
-#include "Core/Containers/Array.h"
-#include "Core/Strings/AString.h"
-#include "Tools/FBuild/FBuildCore/Error.h"
+#include "../../../../../Core/Containers/Array.h"
+#include "../../../../../Core/Strings/AString.h"
+#include "../../Error.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

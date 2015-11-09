@@ -6,8 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Env/Types.h"
-#include "Core/Containers/AutoPtr.h"
+#include "../Env/Types.h"
+#include "../Containers/AutoPtr.h"
 
 // Process
 //------------------------------------------------------------------------------

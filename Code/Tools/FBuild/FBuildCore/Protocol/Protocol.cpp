@@ -3,13 +3,11 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "Protocol.h"
 
-#include "Core/FileIO/ConstMemoryStream.h"
-#include "Core/FileIO/MemoryStream.h"
-#include "Core/Network/TCPConnectionPool.h"
+#include "../../../../Core/FileIO/ConstMemoryStream.h"
+#include "../../../../Core/FileIO/MemoryStream.h"
+#include "../../../../Core/Network/TCPConnectionPool.h"
 
 #if defined( __APPLE__ ) || defined( __LINUX__ )
     #include <unistd.h> // for ::gethostname

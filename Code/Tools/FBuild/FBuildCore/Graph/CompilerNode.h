@@ -7,7 +7,7 @@
 // Includes
 //------------------------------------------------------------------------------
 #include "FileNode.h"
-#include "Tools/FBuild/FBuildCore/Helpers/ToolManifest.h"
+#include "../Helpers/ToolManifest.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

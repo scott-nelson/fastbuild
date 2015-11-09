@@ -3,18 +3,16 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "MemTracker.h"
 
 //------------------------------------------------------------------------------
 #if defined( MEMTRACKER_ENABLED )
 	// Includes
 	//------------------------------------------------------------------------------
-	#include "Core/Mem/MemPoolBlock.h"
-	#include "Core/Process/Atomic.h"
-	#include "Core/Process/Thread.h"
-	#include "Core/Tracing/Tracing.h"
+	#include "MemPoolBlock.h"
+	#include "../Process/Atomic.h"
+	#include "../Process/Thread.h"
+	#include "../Tracing/Tracing.h"
 
 	// system
 	#include <memory.h> // for memset

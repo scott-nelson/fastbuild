@@ -6,13 +6,13 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/Helpers/SLNGenerator.h"
-#include "Tools/FBuild/FBuildCore/Helpers/VSProjectGenerator.h"
-#include "Tools/FBuild/FBuildCore/Graph/Node.h" // TODO:C remove when USE_NODE_REFLECTION is removed
+#include "../Helpers/SLNGenerator.h"
+#include "../Helpers/VSProjectGenerator.h"
+#include "Node.h" // TODO:C remove when USE_NODE_REFLECTION is removed
 
-#include "Core/Containers/Array.h"
-#include "Core/Strings/AString.h"
-#include "Core/Time/Timer.h"
+#include "../../../../Core/Containers/Array.h"
+#include "../../../../Core/Strings/AString.h"
+#include "../../../../Core/Time/Timer.h"
 
 // Forward Declaration
 //------------------------------------------------------------------------------

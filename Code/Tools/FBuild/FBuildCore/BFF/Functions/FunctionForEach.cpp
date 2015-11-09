@@ -3,17 +3,15 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "FunctionForEach.h"
 
-#include "Tools/FBuild/FBuildCore/BFF/BFFIterator.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFParser.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFStackFrame.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFVariable.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
+#include "../BFFIterator.h"
+#include "../BFFParser.h"
+#include "../BFFStackFrame.h"
+#include "../BFFVariable.h"
+#include "../../FLog.h"
 
-#include "Core/Strings/AStackString.h"
+#include "../../../../../Core/Strings/AStackString.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

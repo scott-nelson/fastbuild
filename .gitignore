@@ -8,14 +8,21 @@ External/SDK
 *.sdf
 *.suo
 *.user
-*.vcxproj
-*.vcxproj.filters
+# *.vcxproj
+# *.vcxproj.filters
 tmp/
 ftmp/
 bin/
+*.lib
+*.ilk
+*.iobj
+*.ipdb
 
 # Temp files
 *.bak
+*.obj
+*.tlog
+*.idb
 
 # Windows image file caches
 Thumbs.db

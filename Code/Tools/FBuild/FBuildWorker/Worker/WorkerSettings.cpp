@@ -6,9 +6,9 @@
 #include "WorkerSettings.h"
 
 // Core
-#include "Core/Env/Env.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/Env/Env.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // system
 #if defined( __WINDOWS__ )

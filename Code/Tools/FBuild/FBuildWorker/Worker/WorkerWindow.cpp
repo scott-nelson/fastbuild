@@ -5,17 +5,17 @@
 //------------------------------------------------------------------------------
 #include "WorkerWindow.h"
 
-#include "Tools/FBuild/FBuildWorker/Worker/WorkerSettings.h"
-#include "Tools/FBuild/FBuildCore/FBuildVersion.h"
+#include "WorkerSettings.h"
+#include "../../FBuildCore/FBuildVersion.h"
 
 // FBuildCore
-#include "Tools/FBuild/FBuildCore/WorkerPool/JobQueueRemote.h"
+#include "../../FBuildCore/WorkerPool/JobQueueRemote.h"
 
 // Core
-#include "Core/Env/Assert.h"
-#include "Core/Env/Env.h"
-#include "Core/Strings/AString.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/Env/Assert.h"
+#include "../../../../Core/Env/Env.h"
+#include "../../../../Core/Strings/AString.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // Windows resources
 #if defined( __WINDOWS__ )

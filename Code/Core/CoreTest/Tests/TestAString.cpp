@@ -3,11 +3,11 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../TestFramework/UnitTest.h"
 
-#include "Core/Containers/AutoPtr.h"
-#include "Core/Strings/AString.h"
-#include "Core/Strings/AStackString.h"
+#include "../../Containers/AutoPtr.h"
+#include "../../Strings/AString.h"
+#include "../../Strings/AStackString.h"
 
 #include <memory.h>
 

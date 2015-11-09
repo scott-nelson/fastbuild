@@ -3,11 +3,11 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../TestFramework/UnitTest.h"
 
 // Core
-#include <Core/Process/Thread.h>
-#include <Core/Time/Timer.h>
+#include "../../Process/Thread.h"
+#include "../../Time/Timer.h"
 
 // TestTimer
 //------------------------------------------------------------------------------

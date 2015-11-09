@@ -6,8 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Containers/Array.h"
-#include "Core/Containers/Singleton.h"
+#include "../../../../Core/Containers/Array.h"
+#include "../../../../Core/Containers/Singleton.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

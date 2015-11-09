@@ -5,14 +5,14 @@
 //------------------------------------------------------------------------------
 #include "FBuildTest.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFParser.h"
+#include "../../FBuildCore/FBuild.h"
+#include "../../FBuildCore/BFF/BFFParser.h"
 
-#include "Core/Containers/AutoPtr.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/Process/Thread.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/Containers/AutoPtr.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/Process/Thread.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // TestUnity
 //------------------------------------------------------------------------------

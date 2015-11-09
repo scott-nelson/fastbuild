@@ -3,18 +3,16 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "CIncludeParser.h"
 
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
+#include "../FLog.h"
+#include "../Graph/NodeGraph.h"
 
 // Core
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Math/Murmur3.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../../../Core/FileIO/PathUtils.h"
+#include "../../../../Core/Math/Murmur3.h"
+#include "../../../../Core/Strings/AStackString.h"
+#include "../../../../Core/Tracing/Tracing.h"
 
 #include <string.h>
 

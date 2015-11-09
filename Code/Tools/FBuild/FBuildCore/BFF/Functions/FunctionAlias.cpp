@@ -3,12 +3,10 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "FunctionAlias.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/Graph/AliasNode.h"
+#include "../../FBuild.h"
+#include "../../Graph/NodeGraph.h"
+#include "../../Graph/AliasNode.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

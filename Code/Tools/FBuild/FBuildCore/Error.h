@@ -6,8 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/Graph/Node.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFVariable.h"
+#include "Graph/Node.h"
+#include "BFF/BFFVariable.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

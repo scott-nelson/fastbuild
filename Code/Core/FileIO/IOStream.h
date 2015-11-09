@@ -6,8 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Env/Types.h"
-#include "Core/Containers/Array.h"
+#include "../Env/Types.h"
+#include "../Containers/Array.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

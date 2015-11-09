@@ -3,21 +3,19 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #if defined( __WINDOWS__ )
 #include "TextWriter.h"
-#include "Core/Containers/Ref.h"
-#include "Core/FileIO/IOStream.h"
-#include "Core/Math/Mat44.h"
-#include "Core/Math/Vec2.h"
-#include "Core/Math/Vec3.h"
-#include "Core/Math/Vec4.h"
-#include "Core/Reflection/Object.h"
-#include "Core/Reflection/ReflectedProperty.h"
-#include "Core/Reflection/RefObject.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Strings/AString.h"
+#include "../../Containers/Ref.h"
+#include "../../FileIO/IOStream.h"
+#include "../../Math/Mat44.h"
+#include "../../Math/Vec2.h"
+#include "../../Math/Vec3.h"
+#include "../../Math/Vec4.h"
+#include "../Object.h"
+#include "../ReflectedProperty.h"
+#include "../../Reflection/RefObject.h"
+#include "../../Strings/AStackString.h"
+#include "../../Strings/AString.h"
 
 // system
 #include <stdarg.h>

@@ -12,10 +12,11 @@ class Node;
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Containers/Array.h"
-#include "Core/Env/Types.h"
-#include "Core/Process/Mutex.h"
-#include "Core/Strings/AString.h"
+#include "../../../../Core/Containers/Array.h"
+#include "../../../../Core/Env/Types.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/Process/Mutex.h"
+#include "../../../../Core/Strings/AString.h"
 
 // ToolManifest
 //------------------------------------------------------------------------------

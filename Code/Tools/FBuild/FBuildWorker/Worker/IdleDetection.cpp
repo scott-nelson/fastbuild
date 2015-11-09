@@ -6,8 +6,8 @@
 #include "IdleDetection.h"
 
 // Core
-#include "Core/Containers/Array.h"
-#include "Core/Math/Conversions.h"
+#include "../../../../Core/Containers/Array.h"
+#include "../../../../Core/Math/Conversions.h"
 //#include "Core/Tracing/Tracing.h"
 
 // system

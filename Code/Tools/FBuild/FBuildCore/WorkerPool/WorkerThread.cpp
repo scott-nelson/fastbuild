@@ -3,23 +3,21 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "WorkerThread.h"
 #include "Job.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Graph/Node.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/JobQueue.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/JobQueueRemote.h"
+#include "../FBuild.h"
+#include "../FLog.h"
+#include "../Graph/Node.h"
+#include "../WorkerPool/JobQueue.h"
+#include "../WorkerPool/JobQueueRemote.h"
 
 // Core
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Process/Thread.h"
-#include "Core/Profile/Profile.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/FileIO/PathUtils.h"
+#include "../../../../Core/Process/Thread.h"
+#include "../../../../Core/Profile/Profile.h"
 
 // Static
 //------------------------------------------------------------------------------

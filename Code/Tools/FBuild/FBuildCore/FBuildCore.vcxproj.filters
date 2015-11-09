@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Cache">
+      <UniqueIdentifier>{3dda4410-ab19-4ca1-99d4-5390e4a9f955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BFF">
+      <UniqueIdentifier>{a39ec142-9fd1-49bb-bf06-ce33e11b029b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BFF\Functions">
+      <UniqueIdentifier>{bb59665d-dc2e-44a2-b293-deb0802a92e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{06975701-3e65-4fdd-ab83-70eeb25f9b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph\MetaData">
+      <UniqueIdentifier>{ad6d1b13-b26c-4f08-ad62-22e23067a0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{b0599459-4acf-4af1-a3a5-e98f2357610d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{291cbb29-311b-491a-9acb-36fc799c1e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkerPool">
+      <UniqueIdentifier>{f7f88169-1e6f-4643-88be-18b9e923cd5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BFF\BFFIterator.cpp">
+      <Filter>BFF</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\BFFMacros.cpp">
+      <Filter>BFF</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\BFFParser.cpp">
+      <Filter>BFF</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\BFFStackFrame.cpp">
+      <Filter>BFF</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\BFFVariable.cpp">
+      <Filter>BFF</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionExec.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionExecutable.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionForEach.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionLibrary.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionObjectList.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionPrint.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionSettings.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionSLN.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionTest.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionUnity.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionUsing.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionVCXProject.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\Function.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionAlias.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionCompiler.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionCopy.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionCopyDir.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionCSAssembly.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BFF\Functions\FunctionDLL.cpp">
+      <Filter>BFF\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Cache\Cache.cpp">
+      <Filter>Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="Cache\CachePlugin.cpp">
+      <Filter>Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\MetaData\Meta_Name.cpp">
+      <Filter>Graph\MetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\AliasNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\CompilerNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\CopyDirNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\CopyNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\CSNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\Dependencies.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\DirectoryListNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\DLLNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\ExecNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\ExeNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\FileNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\LibraryNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\LinkerNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\Node.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\NodeGraph.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\NodeProxy.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\ObjectListNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\ObjectNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\SLNNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\TestNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\UnityNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\VCXProjectNode.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\Compressor.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\FBuildStats.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\Report.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\ResponseFile.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\SLNGenerator.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\ToolManifest.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\VSProjectGenerator.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\Args.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\CIncludeParser.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\Client.cpp">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\Protocol.cpp">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\Server.cpp">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerPool\WorkerBrokerage.cpp">
+      <Filter>WorkerPool</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerPool\WorkerThread.cpp">
+      <Filter>WorkerPool</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerPool\WorkerThreadRemote.cpp">
+      <Filter>WorkerPool</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerPool\Job.cpp">
+      <Filter>WorkerPool</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerPool\JobQueue.cpp">
+      <Filter>WorkerPool</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerPool\JobQueueRemote.cpp">
+      <Filter>WorkerPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp" />
+    <ClCompile Include="FBuild.cpp" />
+    <ClCompile Include="FBuildOptions.cpp" />
+    <ClCompile Include="FLog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BFF\BFFIterator.h">
+      <Filter>BFF</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\BFFMacros.h">
+      <Filter>BFF</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\BFFParser.h">
+      <Filter>BFF</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\BFFStackFrame.h">
+      <Filter>BFF</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\BFFVariable.h">
+      <Filter>BFF</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionDLL.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionExec.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionExecutable.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionForEach.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionLibrary.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionObjectList.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionPrint.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionSettings.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionSLN.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionTest.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionUnity.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionUsing.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionVCXProject.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\Function.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionAlias.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionCompiler.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionCopy.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionCopyDir.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="BFF\Functions\FunctionCSAssembly.h">
+      <Filter>BFF\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Cache\Cache.h">
+      <Filter>Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="Cache\CachePlugin.h">
+      <Filter>Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="Cache\CachePluginInterface.h">
+      <Filter>Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="Cache\ICache.h">
+      <Filter>Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\MetaData\Meta_Name.h">
+      <Filter>Graph\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\AliasNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\CompilerNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\CopyDirNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\CopyNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\CSNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\Dependencies.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\DirectoryListNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\DLLNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\ExecNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\ExeNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\FileNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\LibraryNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\LinkerNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\Node.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\NodeGraph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\NodeProxy.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\ObjectListNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\ObjectNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\SLNNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\TestNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\UnityNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\VCXProjectNode.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\CIncludeParser.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Compressor.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\FBuildStats.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Report.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\ResponseFile.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\SLNGenerator.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\ToolManifest.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\VSProjectGenerator.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Args.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\Client.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\Protocol.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\Server.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerPool\WorkerBrokerage.h">
+      <Filter>WorkerPool</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerPool\WorkerThread.h">
+      <Filter>WorkerPool</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerPool\WorkerThreadRemote.h">
+      <Filter>WorkerPool</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerPool\Job.h">
+      <Filter>WorkerPool</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerPool\JobQueue.h">
+      <Filter>WorkerPool</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerPool\JobQueueRemote.h">
+      <Filter>WorkerPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h" />
+    <ClInclude Include="FBuild.h" />
+    <ClInclude Include="FBuildOptions.h" />
+    <ClInclude Include="FBuildVersion.h" />
+    <ClInclude Include="FLog.h" />
+  </ItemGroup>
+</Project>

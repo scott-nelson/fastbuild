@@ -3,15 +3,13 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "ExeNode.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
+#include "../FBuild.h"
+#include "NodeGraph.h"
 
-#include "Core/FileIO/IOStream.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/FileIO/IOStream.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

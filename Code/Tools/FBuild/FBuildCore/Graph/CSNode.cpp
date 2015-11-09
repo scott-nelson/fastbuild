@@ -3,22 +3,20 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "CSNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/DirectoryListNode.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/Helpers/CIncludeParser.h"
-#include "Tools/FBuild/FBuildCore/Helpers/ResponseFile.h"
+#include "DirectoryListNode.h"
+#include "../FBuild.h"
+#include "../FLog.h"
+#include "NodeGraph.h"
+#include "../Helpers/CIncludeParser.h"
+#include "../Helpers/ResponseFile.h"
 
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/Math/CRC32.h"
-#include "Core/Process/Process.h"
-#include "Core/Tracing/Tracing.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/Math/CRC32.h"
+#include "../../../../Core/Process/Process.h"
+#include "../../../../Core/Tracing/Tracing.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

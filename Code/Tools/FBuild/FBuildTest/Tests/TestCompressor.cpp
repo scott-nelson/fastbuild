@@ -3,15 +3,15 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../../TestFramework/UnitTest.h"
 
-#include "Tools/FBuild/FBuildCore/Helpers/Compressor.h"
+#include "../../FBuildCore/Helpers/Compressor.h"
 
-#include "Core/Containers/AutoPtr.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/Strings/AString.h"
-#include "Core/Time/Timer.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../../../Core/Containers/AutoPtr.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/Strings/AString.h"
+#include "../../../../Core/Time/Timer.h"
+#include "../../../../Core/Tracing/Tracing.h"
 
 #include <memory.h>
 

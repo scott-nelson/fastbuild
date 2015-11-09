@@ -6,9 +6,9 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Containers/Array.h"
-#include "Core/Env/Assert.h"
-#include "Core/Env/Types.h"
+#include "../Containers/Array.h"
+#include "../Env/Assert.h"
+#include "../Env/Types.h"
 
 // Typedefs
 //------------------------------------------------------------------------------

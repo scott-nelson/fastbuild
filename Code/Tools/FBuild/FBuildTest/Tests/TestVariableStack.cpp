@@ -3,11 +3,11 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFStackFrame.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFVariable.h"
+#include "../../../../TestFramework/UnitTest.h"
+#include "../../FBuildCore/BFF/BFFStackFrame.h"
+#include "../../FBuildCore/BFF/BFFVariable.h"
 
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // TestVariableStack
 //------------------------------------------------------------------------------

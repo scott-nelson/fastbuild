@@ -3,10 +3,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "BFFIterator.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFParser.h"
+#include "BFFParser.h"
 
 // operator =
 //------------------------------------------------------------------------------

@@ -3,15 +3,13 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "SystemMutex.h"
-#include "Core/Strings/AStackString.h"
+#include "../Strings/AStackString.h"
 
 // system
 #if defined( __WINDOWS__ )
     #include <windows.h>
-    #include "Core/Env/Assert.h"
+    #include "../Env/Assert.h"
 #endif
 #if defined( __LINUX__ ) || defined( __APPLE__ )
     #include <errno.h>

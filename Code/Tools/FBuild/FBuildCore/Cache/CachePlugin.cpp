@@ -3,19 +3,17 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "CachePlugin.h"
 
 // FBuild
-#include "Tools/FBuild/FBuildCore/FLog.h"
+#include "../FLog.h"
 
 // Core
-#include "Core/Containers/AutoPtr.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/Mem/Mem.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/Containers/AutoPtr.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/Mem/Mem.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // system
 #if defined( __WINDOWS__ )

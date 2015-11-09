@@ -6,7 +6,7 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Reflection/MetaData/MetaDataInterface.h"
+#include "MetaDataInterface.h"
 
 // Meta_File
 //------------------------------------------------------------------------------

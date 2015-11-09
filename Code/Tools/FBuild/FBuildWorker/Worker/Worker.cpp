@@ -12,17 +12,17 @@
 #include "WorkerSettings.h"
 
 // FBuild
-#include "Tools/FBuild/FBuildCore/Protocol/Protocol.h"
-#include "Tools/FBuild/FBuildCore/Protocol/Server.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/JobQueueRemote.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/WorkerThreadRemote.h"
+#include "../../FBuildCore/Protocol/Protocol.h"
+#include "../../FBuildCore/Protocol/Server.h"
+#include "../../FBuildCore/WorkerPool/JobQueueRemote.h"
+#include "../../FBuildCore/WorkerPool/WorkerThreadRemote.h"
 
-#include "Core/Env/Env.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/Network/NetworkStartupHelper.h"
-#include "Core/Process/Process.h"
-#include "Core/Profile/Profile.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/Env/Env.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/Network/NetworkStartupHelper.h"
+#include "../../../../Core/Process/Process.h"
+#include "../../../../Core/Profile/Profile.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // system
 #include <stdio.h>

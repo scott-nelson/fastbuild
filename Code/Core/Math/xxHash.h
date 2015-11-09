@@ -6,8 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Env/Types.h"
-#include "Core/Strings/AString.h"
+#include "../Env/Types.h"
+#include "../Strings/AString.h"
 
 // avoid including xxhash header directly
 extern "C"

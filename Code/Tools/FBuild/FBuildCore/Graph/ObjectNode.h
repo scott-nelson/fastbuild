@@ -7,10 +7,10 @@
 // Includes
 //------------------------------------------------------------------------------
 #include "FileNode.h"
-#include "Core/Containers/Array.h"
-#include "Core/Containers/AutoPtr.h"
-#include "Core/Env/Assert.h"
-#include "Core/Process/Process.h"
+#include "../../../../Core/Containers/Array.h"
+#include "../../../../Core/Containers/AutoPtr.h"
+#include "../../../../Core/Env/Assert.h"
+#include "../../../../Core/Process/Process.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

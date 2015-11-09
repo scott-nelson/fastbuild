@@ -6,9 +6,9 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Containers/Array.h"
-#include "Core/Mem/MemPoolBlock.h"
-#include "Core/Strings/AString.h"
+#include "../../../../Core/Containers/Array.h"
+#include "../../../../Core/Mem/MemPoolBlock.h"
+#include "../../../../Core/Strings/AString.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

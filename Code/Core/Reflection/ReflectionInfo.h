@@ -6,13 +6,12 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Containers/Array.h"
-#include "Core/Containers/Ref.h"
-#include "Core/Containers/WeakRef.h"
-#include "Core/Env/Types.h"
-#include "Core/Reflection/ReflectionIter.h"
-//#include "Core/Reflection/RefObject.h"
-#include "Core/Reflection/PropertyType.h"
+#include "../Containers/Array.h"
+#include "../Containers/Ref.h"
+#include "../Containers/WeakRef.h"
+#include "../Env/Types.h"
+#include "ReflectionIter.h"
+#include "PropertyType.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

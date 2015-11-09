@@ -9,10 +9,10 @@
 #include "IdleDetection.h"
 
 // FBuild
-#include "Tools/FBuild/FBuildCore/WorkerPool/WorkerBrokerage.h"
+#include "../../FBuildCore/WorkerPool/WorkerBrokerage.h"
 
 // Core
-#include "Core/FileIO/FileStream.h"
+#include "../../../../Core/FileIO/FileStream.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

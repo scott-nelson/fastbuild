@@ -3,13 +3,11 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "FunctionExec.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFVariable.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/Graph/ExecNode.h"
+#include "../../FBuild.h"
+#include "../BFFVariable.h"
+#include "../../Graph/NodeGraph.h"
+#include "../../Graph/ExecNode.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

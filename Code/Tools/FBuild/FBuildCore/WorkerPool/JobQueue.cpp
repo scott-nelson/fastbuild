@@ -3,21 +3,20 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "JobQueue.h"
 #include "Job.h"
 #include "WorkerThread.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Graph/Node.h"
-#include "Tools/FBuild/FBuildCore/Graph/ObjectNode.h"
+#include "../FBuild.h"
+#include "../FLog.h"
+#include "../Graph/Node.h"
+#include "../Graph/ObjectNode.h"
 
-#include "Core/Time/Timer.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/Process/Atomic.h"
-#include "Core/Profile/Profile.h"
+#include "../../../../Core/Time/Timer.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/Process/Atomic.h"
+#include "../../../../Core/Process/Thread.h"
+#include "../../../../Core/Profile/Profile.h"
 
 // JobCostSorter
 //------------------------------------------------------------------------------

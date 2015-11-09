@@ -3,25 +3,23 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "FunctionLibrary.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFIterator.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFParser.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFStackFrame.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFVariable.h"
-#include "Tools/FBuild/FBuildCore/BFF/Functions/FunctionObjectList.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/Graph/AliasNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/CompilerNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/DirectoryListNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/LibraryNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/ObjectNode.h"
+#include "../../FBuild.h"
+#include "../../FLog.h"
+#include "../BFFIterator.h"
+#include "../BFFParser.h"
+#include "../BFFStackFrame.h"
+#include "../BFFVariable.h"
+#include "../Functions/FunctionObjectList.h"
+#include "../../Graph/NodeGraph.h"
+#include "../../Graph/AliasNode.h"
+#include "../../Graph/CompilerNode.h"
+#include "../../Graph/DirectoryListNode.h"
+#include "../../Graph/LibraryNode.h"
+#include "../../Graph/ObjectNode.h"
 
 // Core
-#include "Core/FileIO/PathUtils.h"
+#include "../../../../../Core/FileIO/PathUtils.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

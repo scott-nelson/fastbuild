@@ -5,14 +5,14 @@
 //------------------------------------------------------------------------------
 #include "FBuildWorkerOptions.h"
 #include "Worker/Worker.h"
-#include "Core/Env/Assert.h"
-#include "Core/Env/Env.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/Mem/MemTracker.h"
-#include "Core/Process/Process.h"
-#include "Core/Process/SystemMutex.h"
-#include "Core/Process/Thread.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../Core/Env/Assert.h"
+#include "../../../Core/Env/Env.h"
+#include "../../../Core/FileIO/FileIO.h"
+#include "../../../Core/Mem/MemTracker.h"
+#include "../../../Core/Process/Process.h"
+#include "../../../Core/Process/SystemMutex.h"
+#include "../../../Core/Process/Thread.h"
+#include "../../../Core/Strings/AStackString.h"
 
 // system
 #if defined( __WINDOWS__ )

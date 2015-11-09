@@ -3,11 +3,10 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
 #include "PropertyType.h"
 
 // Core
-#include "Core/Strings/AString.h"
+#include "../Strings/AString.h"
 
 // GetPropertyTypeFromString
 //------------------------------------------------------------------------------

@@ -7,7 +7,7 @@
 // Includes
 //------------------------------------------------------------------------------
 #include "WorkerThread.h"
-#include "Core/Process/Mutex.h"
+#include "../../../../Core/Process/Mutex.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

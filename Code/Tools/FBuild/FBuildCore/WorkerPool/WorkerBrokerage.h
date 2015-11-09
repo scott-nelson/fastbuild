@@ -6,8 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Strings/AString.h"
-#include "Core/Time/Timer.h"
+#include "../../../../Core/Strings/AString.h"
+#include "../../../../Core/Time/Timer.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

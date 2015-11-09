@@ -3,17 +3,15 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "Error.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFIterator.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFParser.h"
-#include "Tools/FBuild/FBuildCore/BFF/Functions/Function.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
+#include "BFF/BFFIterator.h"
+#include "BFF/BFFParser.h"
+#include "BFF/Functions/Function.h"
+#include "FLog.h"
+#include "Graph/NodeGraph.h"
 
-#include "Core/Strings/AStackString.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../../Core/Strings/AStackString.h"
+#include "../../../Core/Tracing/Tracing.h"
 
 #include <stdarg.h>
 #include <stdio.h>

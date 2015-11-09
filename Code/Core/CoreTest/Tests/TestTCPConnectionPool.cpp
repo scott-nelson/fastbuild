@@ -3,13 +3,13 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../TestFramework/UnitTest.h"
 
-#include "Core/Containers/AutoPtr.h"
-#include "Core/Network/TCPConnectionPool.h"
-#include "Core/Process/Thread.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Time/Timer.h"
+#include "../../Containers/AutoPtr.h"
+#include "../../Network/TCPConnectionPool.h"
+#include "../../Process/Thread.h"
+#include "../../Strings/AStackString.h"
+#include "../../Time/Timer.h"
 
 // Defines
 //------------------------------------------------------------------------------

@@ -5,9 +5,9 @@
 //------------------------------------------------------------------------------
 #include "FBuildTest.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFParser.h"
-#include "Core/Strings/AStackString.h"
+#include "../../FBuildCore/FBuild.h"
+#include "../../FBuildCore/BFF/BFFParser.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // TestObjectList
 //------------------------------------------------------------------------------

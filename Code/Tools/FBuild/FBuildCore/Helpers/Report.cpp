@@ -3,20 +3,18 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "Report.h"
 
 // FBuild
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FBuildVersion.h"
-#include "Tools/FBuild/FBuildCore/Graph/ObjectNode.h"
-#include "Tools/FBuild/FBuildCore/Helpers/FBuildStats.h"
+#include "../FBuild.h"
+#include "../FBuildVersion.h"
+#include "../Graph/ObjectNode.h"
+#include "FBuildStats.h"
 
 // Core
-#include "Core/Env/Env.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/Env/Env.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // system
 #include <stdarg.h> // for va_args

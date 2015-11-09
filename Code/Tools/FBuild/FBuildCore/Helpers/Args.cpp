@@ -3,12 +3,10 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "Args.h"
 
 // Core
-#include "Core/Strings/AString.h"
+#include "../../../../Core/Strings/AString.h"
 
 // Generate
 //------------------------------------------------------------------------------

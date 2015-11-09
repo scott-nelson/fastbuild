@@ -6,9 +6,9 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Strings/AStackString.h"
-#include "Core/Process/Mutex.h"
-#include "Core/Process/Thread.h"
+#include "../Strings/AStackString.h"
+#include "../Process/Mutex.h"
+#include "../Process/Thread.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

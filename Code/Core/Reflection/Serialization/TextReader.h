@@ -6,9 +6,9 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Containers/Array.h"
-#include "Core/Reflection/PropertyType.h"
-#include "Core/Strings/AString.h"
+#include "../../Containers/Array.h"
+#include "../PropertyType.h"
+#include "../../Strings/AString.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

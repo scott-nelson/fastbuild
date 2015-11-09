@@ -5,15 +5,15 @@
 //------------------------------------------------------------------------------
 #include "FBuildTest.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/Helpers/CIncludeParser.h"
+#include "../../FBuildCore/FBuild.h"
+#include "../../FBuildCore/Helpers/CIncludeParser.h"
 
 // Core
-#include "Core/Containers/AutoPtr.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Time/Timer.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../../../Core/Containers/AutoPtr.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/Strings/AStackString.h"
+#include "../../../../Core/Time/Timer.h"
+#include "../../../../Core/Tracing/Tracing.h"
 
 // TestIncludeParser
 //------------------------------------------------------------------------------

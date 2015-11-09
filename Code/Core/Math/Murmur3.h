@@ -6,9 +6,9 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Env/Types.h"
-#include "Core/Math/MurmurHash3/MurmurHash3.h"
-#include "Core/Strings/AString.h"
+#include "../Env/Types.h"
+#include "MurmurHash3/MurmurHash3.h"
+#include "../Strings/AString.h"
 
 // Murmur3
 //------------------------------------------------------------------------------

@@ -4,12 +4,12 @@
 // Includes
 //------------------------------------------------------------------------------
 #include "FBuildWorkerOptions.h"
-#include "Tools/FBuild/FBuildCore/FBuildVersion.h"
+#include "../FBuildCore/FBuildVersion.h"
 
 // Core
-#include "Core/Containers/Array.h"
-#include "Core/Env/Env.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../Core/Containers/Array.h"
+#include "../../../Core/Env/Env.h"
+#include "../../../Core/Strings/AStackString.h"
 
 // system
 #include <stdio.h>
@@ -46,7 +46,7 @@ bool FBuildWorkerOptions::ProcessCommandLine( const AString & commandLine )
 		{
 			int32_t numCPUs = Env::GetNumProcessors();
 			int32_t num( 0 );
-			if ( sscanf( token.Get() + 6, "%i", &num ) == 1 )
+			if ( sscanf_s( token.Get() + 6, "%i", &num ) == 1 )
 			{
 				if ( token.EndsWith( '%' ) )
 				{

@@ -6,11 +6,11 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Containers/Sort.h"
-#include "Core/Env/Assert.h"
-#include "Core/Env/Types.h"
-#include "Core/Math/Conversions.h"
-#include "Core/Mem/Mem.h"
+#include "Sort.h"
+#include "../Env/Assert.h"
+#include "../Env/Types.h"
+#include "../Math/Conversions.h"
+#include "../Mem/Mem.h"
 
 // Array
 //------------------------------------------------------------------------------

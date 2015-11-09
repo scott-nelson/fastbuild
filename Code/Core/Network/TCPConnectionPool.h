@@ -8,11 +8,11 @@
 //------------------------------------------------------------------------------
 #include "NetworkStartupHelper.h"
 
-#include "Core/Env/Types.h"
-#include "Core/Containers/Array.h"
-#include "Core/Process/Mutex.h"
-#include "Core/Process/Thread.h"
-#include "Core/Strings/AString.h"
+#include "../Env/Types.h"
+#include "../Containers/Array.h"
+#include "../Process/Mutex.h"
+#include "../Process/Thread.h"
+#include "../Strings/AString.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

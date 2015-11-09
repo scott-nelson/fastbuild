@@ -3,22 +3,20 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "ToolManifest.h"
 
 // Core
-#include "Core/Containers/AutoPtr.h"
-#include "Core/Env/Env.h"
-#include "Core/FileIO/ConstMemoryStream.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/FileIO/MemoryStream.h"
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Math/Murmur3.h"
-#include "Core/Strings/AStackString.h"
-#include "Tools/FBuild/FBuildCore/Graph/FileNode.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
+#include "../../../../Core/Containers/AutoPtr.h"
+#include "../../../../Core/Env/Env.h"
+#include "../../../../Core/FileIO/ConstMemoryStream.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/FileIO/MemoryStream.h"
+#include "../../../../Core/FileIO/PathUtils.h"
+#include "../../../../Core/Math/Murmur3.h"
+#include "../../../../Core/Strings/AStackString.h"
+#include "../Graph/FileNode.h"
+#include "../FLog.h"
 
 // system
 #include <memory.h> // memcpy

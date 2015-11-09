@@ -7,8 +7,8 @@
 // Includes
 //------------------------------------------------------------------------------
 #include "ReflectionMacros.h"
-#include "Core/Reflection/RefObject.h"
-#include "Core/Strings/AString.h"
+#include "RefObject.h"
+#include "../Strings/AString.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

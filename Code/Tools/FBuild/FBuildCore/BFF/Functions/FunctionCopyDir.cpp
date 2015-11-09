@@ -3,16 +3,15 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "FunctionCopyDir.h"
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFStackFrame.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFVariable.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
+#include "../../FBuild.h"
+#include "../BFFStackFrame.h"
+#include "../BFFVariable.h"
+#include "../../Graph/NodeGraph.h"
 
 // Core
-#include "Core/FileIO/PathUtils.h"
+#include "../../../../../Core/FileIO/PathUtils.h"
+#include "../../../../../Core/Strings/AStackString.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

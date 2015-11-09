@@ -3,44 +3,42 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "Node.h"
 #include "FileNode.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Graph/AliasNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/CompilerNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/CopyDirNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/CopyNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/CSNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/DirectoryListNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/DLLNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/ExeNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/ExecNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/FileNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/LibraryNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeProxy.h"
-#include "Tools/FBuild/FBuildCore/Graph/ObjectListNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/ObjectNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/SLNNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/TestNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/UnityNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/VCXProjectNode.h"
-#include "Tools/FBuild/FBuildCore/Graph/MetaData/Meta_Name.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/Job.h"
+#include "../FBuild.h"
+#include "../FLog.h"
+#include "AliasNode.h"
+#include "CompilerNode.h"
+#include "CopyDirNode.h"
+#include "CopyNode.h"
+#include "CSNode.h"
+#include "DirectoryListNode.h"
+#include "DLLNode.h"
+#include "ExeNode.h"
+#include "ExecNode.h"
+#include "FileNode.h"
+#include "LibraryNode.h"
+#include "NodeGraph.h"
+#include "NodeProxy.h"
+#include "ObjectListNode.h"
+#include "ObjectNode.h"
+#include "SLNNode.h"
+#include "TestNode.h"
+#include "UnityNode.h"
+#include "VCXProjectNode.h"
+#include "MetaData/Meta_Name.h"
+#include "../WorkerPool/Job.h"
 
 // Core
-#include "Core/Containers/Array.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/IOStream.h"
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Math/CRC32.h"
-#include "Core/Profile/Profile.h"
-#include "Core/Reflection/ReflectedProperty.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/Containers/Array.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/IOStream.h"
+#include "../../../../Core/FileIO/PathUtils.h"
+#include "../../../../Core/Math/CRC32.h"
+#include "../../../../Core/Profile/Profile.h"
+#include "../../../../Core/Reflection/ReflectedProperty.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // system
 #include <stdio.h>
@@ -786,8 +784,8 @@ void Node::ReplaceDummyName( const AString & newName )
 
 	// are last two tokens numbers?
 	int row, column;
-	if ( ( sscanf( tokens[ numTokens - 1 ].Get(), "%i", &column ) != 1 ) ||
-		 ( sscanf( tokens[ numTokens - 2 ].Get(), "%i", &row ) != 1 ) )
+	if ( ( sscanf_s( tokens[ numTokens - 1 ].Get(), "%i", &column ) != 1 ) ||
+		 ( sscanf_s( tokens[ numTokens - 2 ].Get(), "%i", &row ) != 1 ) )
 	{
 		return; // failed to extract numbers where we expected them
 	}

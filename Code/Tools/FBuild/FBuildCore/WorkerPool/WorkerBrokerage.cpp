@@ -3,21 +3,19 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "WorkerBrokerage.h"
 
 // FBuild
-#include "Tools/FBuild/FBuildCore/Protocol/Protocol.h"
+#include "../Protocol/Protocol.h"
 
 // Core
-#include "Core/Env/Env.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Network/Network.h"
-#include "Core/Profile/Profile.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/Env/Env.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/FileIO/PathUtils.h"
+#include "../../../../Core/Network/Network.h"
+#include "../../../../Core/Profile/Profile.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

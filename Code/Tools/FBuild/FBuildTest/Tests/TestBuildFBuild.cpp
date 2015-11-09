@@ -5,13 +5,13 @@
 //------------------------------------------------------------------------------
 #include "FBuildTest.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
+#include "../../FBuildCore/FBuild.h"
+#include "../../FBuildCore/Graph/NodeGraph.h"
 
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/MemoryStream.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/MemoryStream.h"
+#include "../../../../Core/Strings/AStackString.h"
+#include "../../../../Core/Tracing/Tracing.h"
 
 // Globals
 //------------------------------------------------------------------------------

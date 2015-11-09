@@ -6,8 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Containers/Array.h"
-#include "Core/Strings/AString.h"
+#include "../Containers/Array.h"
+#include "../Strings/AString.h"
 
 // Defines
 //------------------------------------------------------------------------------

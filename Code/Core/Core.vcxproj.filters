@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{80f20258-b9b4-4c18-916d-ad01319d374d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Env">
+      <UniqueIdentifier>{9b1eef17-998e-4400-abc9-610e53b87e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileIO">
+      <UniqueIdentifier>{a892a436-d130-4906-a391-ce0c5f8c4d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{8620262e-e422-48e5-bcce-cd929ff70fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\MurmurHash3">
+      <UniqueIdentifier>{d6922a02-b279-4aca-8421-c75e4217c2ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mem">
+      <UniqueIdentifier>{4573e4a9-755b-4986-be41-e753737b1bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{44ce112e-5734-4d21-96a0-7d77ffd9826d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process">
+      <UniqueIdentifier>{41721c0c-e583-4f89-a269-2bbc8c902def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile">
+      <UniqueIdentifier>{7c43891d-94e4-41cb-af7b-5def2d52f537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reflection">
+      <UniqueIdentifier>{413a7bc6-f534-4477-94ac-ca15d7991be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reflection\MetaData">
+      <UniqueIdentifier>{94e17d40-f859-4eb6-b4c3-910569000c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reflection\Serialization">
+      <UniqueIdentifier>{7112466f-5eb9-4364-8538-671a4f3aa109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings">
+      <UniqueIdentifier>{89e1f2b5-fbbc-4cb5-99cd-b94b3db6cd77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{dc0b0fd5-b93f-403e-9c3c-5893e65a1c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tracing">
+      <UniqueIdentifier>{5642c1f9-7e5a-42a5-8c3b-305081433cc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Containers\Array.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\AutoPtr.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Ref.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Singleton.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Sort.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\WeakRef.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Env\Assert.h">
+      <Filter>Env</Filter>
+    </ClInclude>
+    <ClInclude Include="Env\Env.h">
+      <Filter>Env</Filter>
+    </ClInclude>
+    <ClInclude Include="Env\Types.h">
+      <Filter>Env</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\FileStream.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\IOStream.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\MemoryStream.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\PathUtils.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\ConstMemoryStream.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\FileIO.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Constants.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Conversions.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\CRC32.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Mat44.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Murmur3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Random.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Ray3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Trig.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vec2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vec3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vec4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\xxHash.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MurmurHash3\MurmurHash3.h">
+      <Filter>Math\MurmurHash3</Filter>
+    </ClInclude>
+    <ClInclude Include="Mem\MemTracker.h">
+      <Filter>Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="Mem\Mem.h">
+      <Filter>Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="Mem\MemPoolBlock.h">
+      <Filter>Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkStartupHelper.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\TCPConnectionPool.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Network.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Process\Atomic.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Process\Mutex.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Process\Process.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Process\Semaphore.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Process\SharedMemory.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Process\SystemMutex.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Process\Thread.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\ProfileManager.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\Profile.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\BindReflection.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Container.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Object.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\PropertyType.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\ReflectedProperty.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\ReflectionInfo.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\ReflectionIter.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\ReflectionMacros.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\ReflectionSettings.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\RefObject.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\MetaData\Meta_File.h">
+      <Filter>Reflection\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\MetaData\Meta_Optional.h">
+      <Filter>Reflection\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\MetaData\Meta_Path.h">
+      <Filter>Reflection\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\MetaData\Meta_Range.h">
+      <Filter>Reflection\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\MetaData\MetaData.h">
+      <Filter>Reflection\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\MetaData\MetaDataInterface.h">
+      <Filter>Reflection\MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Serialization\TextReader.h">
+      <Filter>Reflection\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Serialization\TextWriter.h">
+      <Filter>Reflection\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings\AString.h">
+      <Filter>Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings\AStackString.h">
+      <Filter>Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="Time\Timer.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracing\Tracing.h">
+      <Filter>Tracing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Env\Assert.cpp">
+      <Filter>Env</Filter>
+    </ClCompile>
+    <ClCompile Include="Env\Env.cpp">
+      <Filter>Env</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\IOStream.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\MemoryStream.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\PathUtils.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\ConstMemoryStream.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\FileIO.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\FileStream.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\AABB3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\CRC32.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Mat44.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Random.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vec3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MurmurHash3\MurmurHash3.cpp">
+      <Filter>Math\MurmurHash3</Filter>
+    </ClCompile>
+    <ClCompile Include="Mem\Mem.cpp">
+      <Filter>Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mem\MemPoolBlock.cpp">
+      <Filter>Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mem\MemTracker.cpp">
+      <Filter>Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkStartupHelper.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\TCPConnectionPool.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Network.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Process\Mutex.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Process\Process.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Process\Semaphore.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Process\SharedMemory.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Process\SystemMutex.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Process\Thread.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\ProfileManager.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\BindReflection.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Container.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Object.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\PropertyType.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\ReflectedProperty.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\ReflectionInfo.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\ReflectionIter.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\RefObject.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\MetaData\Meta_File.cpp">
+      <Filter>Reflection\MetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\MetaData\Meta_Optional.cpp">
+      <Filter>Reflection\MetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\MetaData\Meta_Path.cpp">
+      <Filter>Reflection\MetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\MetaData\Meta_Range.cpp">
+      <Filter>Reflection\MetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\MetaData\MetaData.cpp">
+      <Filter>Reflection\MetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Serialization\TextReader.cpp">
+      <Filter>Reflection\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Serialization\TextWriter.cpp">
+      <Filter>Reflection\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings\AString.cpp">
+      <Filter>Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Time\Timer.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracing\Tracing.cpp">
+      <Filter>Tracing</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

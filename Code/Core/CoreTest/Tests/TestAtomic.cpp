@@ -3,10 +3,10 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../TestFramework/UnitTest.h"
 
-#include "Core/Process/Atomic.h"
-#include "Core/Process/Thread.h"
+#include "../../Process/Atomic.h"
+#include "../../Process/Thread.h"
 
 // Macros
 //------------------------------------------------------------------------------

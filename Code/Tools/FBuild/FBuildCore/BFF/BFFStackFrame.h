@@ -6,8 +6,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/BFF/BFFVariable.h"
-#include "Core/Containers/Array.h"
+#include "BFFVariable.h"
+#include "../../../../Core/Containers/Array.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

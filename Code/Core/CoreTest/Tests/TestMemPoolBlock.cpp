@@ -3,12 +3,12 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../TestFramework/UnitTest.h"
 
-#include "Core/Mem/Mem.h"
-#include "Core/Mem/MemPoolBlock.h"
-#include "Core/Time/Timer.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../Mem/Mem.h"
+#include "../../Mem/MemPoolBlock.h"
+#include "../../Time/Timer.h"
+#include "../../Tracing/Tracing.h"
 
 // TestMemPoolBlock
 //------------------------------------------------------------------------------

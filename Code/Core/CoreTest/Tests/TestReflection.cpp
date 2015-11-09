@@ -3,21 +3,21 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include <TestFramework/UnitTest.h>
+#include "../../../TestFramework/UnitTest.h"
 
-#include "Core/Containers/Ref.h"
-#include "Core/FileIO/ConstMemoryStream.h"
-#include "Core/FileIO/MemoryStream.h"
-#include "Core/Math/Mat44.h"
-#include "Core/Math/Vec2.h"
-#include "Core/Math/Vec3.h"
-#include "Core/Math/Vec4.h"
-#include "Core/Reflection/BindReflection.h"
-#include "Core/Reflection/Object.h"
-#include "Core/Reflection/Serialization/TextReader.h"
-#include "Core/Reflection/Serialization/TextWriter.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../Containers/Ref.h"
+#include "../../FileIO/ConstMemoryStream.h"
+#include "../../FileIO/MemoryStream.h"
+#include "../../Math/Mat44.h"
+#include "../../Math/Vec2.h"
+#include "../../Math/Vec3.h"
+#include "../../Math/Vec4.h"
+#include "../../Reflection/BindReflection.h"
+#include "../../Reflection/Object.h"
+#include "../../Reflection/Serialization/TextReader.h"
+#include "../../Reflection/Serialization/TextWriter.h"
+#include "../../Strings/AStackString.h"
+#include "../../Tracing/Tracing.h"
 
 // system
 #include <memory.h>

@@ -3,10 +3,10 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../TestFramework/UnitTest.h"
 
-#include "Core/Process/Mutex.h"
-#include "Core/Process/Thread.h"
+#include "../../Process/Mutex.h"
+#include "../../Process/Thread.h"
 
 // TestMutex
 //------------------------------------------------------------------------------

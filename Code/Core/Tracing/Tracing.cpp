@@ -3,13 +3,11 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "Tracing.h"
-#include "Core/Env/Assert.h"
+#include "../Env/Assert.h"
 
-#include "Core/Profile/Profile.h"
-#include "Core/Strings/AStackString.h"
+#include "../Profile/Profile.h"
+#include "../Strings/AStackString.h"
 
 #include <stdio.h>
 #include <stdarg.h>

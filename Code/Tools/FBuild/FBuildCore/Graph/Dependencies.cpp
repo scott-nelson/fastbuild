@@ -4,16 +4,14 @@
 // Includes
 //------------------------------------------------------------------------------
 // FBuild
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "Dependencies.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/Graph/Node.h"
-#include "Tools/FBuild/FBuildCore/Graph/NodeGraph.h"
+#include "../FBuild.h"
+#include "Node.h"
+#include "NodeGraph.h"
 
 // Core
-#include "Core/FileIO/IOStream.h"
+#include "../../../../Core/FileIO/IOStream.h"
 
 
 // operator =

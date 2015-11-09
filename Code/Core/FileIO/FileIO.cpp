@@ -3,16 +3,14 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
-
 #include "FileIO.h"
 #include "FileStream.h"
 
 // Core
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Process/Thread.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Time/Timer.h"
+#include "PathUtils.h"
+#include "../Process/Thread.h"
+#include "../Strings/AStackString.h"
+#include "../Time/Timer.h"
 
 // system
 #if defined( __WINDOWS__ )

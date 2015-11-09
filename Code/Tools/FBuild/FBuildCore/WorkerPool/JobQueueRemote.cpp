@@ -3,25 +3,23 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "JobQueueRemote.h"
 #include "Job.h"
 #include "WorkerThreadRemote.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Graph/Node.h"
-#include "Tools/FBuild/FBuildCore/Graph/ObjectNode.h"
+#include "../FBuild.h"
+#include "../FLog.h"
+#include "../Graph/Node.h"
+#include "../Graph/ObjectNode.h"
 
 // Core
-#include "Core/Containers/AutoPtr.h"
-#include "Core/FileIO/FileIO.h"
-#include "Core/FileIO/FileStream.h"
-#include "Core/FileIO/PathUtils.h"
-#include "Core/Profile/Profile.h"
-#include "Core/Time/Timer.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../../../Core/Containers/AutoPtr.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/FileIO/FileStream.h"
+#include "../../../../Core/FileIO/PathUtils.h"
+#include "../../../../Core/Profile/Profile.h"
+#include "../../../../Core/Time/Timer.h"
+#include "../../../../Core/Tracing/Tracing.h"
 
 // CONSTRUCTOR
 //------------------------------------------------------------------------------

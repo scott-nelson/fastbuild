@@ -3,9 +3,8 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/PrecompiledHeader.h"
 #include "AABB3.h"
-#include "Core/Math/Ray3.h"
+#include "Ray3.h"
 
 // Intersect (Ray3)
 //------------------------------------------------------------------------------

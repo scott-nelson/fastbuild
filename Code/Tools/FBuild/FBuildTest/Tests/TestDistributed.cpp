@@ -3,15 +3,15 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../../TestFramework/UnitTest.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/Protocol/Protocol.h"
-#include "Tools/FBuild/FBuildCore/Protocol/Server.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/JobQueueRemote.h"
+#include "../../FBuildCore/FBuild.h"
+#include "../../FBuildCore/Protocol/Protocol.h"
+#include "../../FBuildCore/Protocol/Server.h"
+#include "../../FBuildCore/WorkerPool/JobQueueRemote.h"
 
-#include "Core/FileIO/FileIO.h"
-#include "Core/Strings/AStackString.h"
+#include "../../../../Core/FileIO/FileIO.h"
+#include "../../../../Core/Strings/AStackString.h"
 
 // TestDistributed
 //------------------------------------------------------------------------------

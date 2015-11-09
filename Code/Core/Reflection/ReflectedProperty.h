@@ -6,10 +6,10 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Env/Types.h"
-#include "Core/Reflection/ReflectionSettings.h"
-#include "Core/Reflection/PropertyType.h"
-#include "Core/Reflection/MetaData/MetaDataInterface.h"
+#include "../Env/Types.h"
+#include "ReflectionSettings.h"
+#include "PropertyType.h"
+#include "MetaData/MetaDataInterface.h"
 
 // Forward Declarations
 //------------------------------------------------------------------------------

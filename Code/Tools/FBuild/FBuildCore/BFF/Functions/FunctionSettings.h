@@ -7,8 +7,8 @@
 // Includes
 //------------------------------------------------------------------------------
 #include "Function.h"
-#include "Core/Containers/Array.h"
-#include "Core/Strings/AString.h"
+#include "../../../../../Core/Containers/Array.h"
+#include "../../../../../Core/Strings/AString.h"
 
 // FunctionSettings
 //------------------------------------------------------------------------------

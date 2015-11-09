@@ -3,13 +3,13 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../../TestFramework/UnitTest.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/BFF/BFFParser.h"
+#include "../../FBuildCore/FBuild.h"
+#include "../../FBuildCore/BFF/BFFParser.h"
 
-#include "Core/Containers/AutoPtr.h"
-#include "Core/FileIO/FileStream.h"
+#include "../../../../Core/Containers/AutoPtr.h"
+#include "../../../../Core/FileIO/FileStream.h"
 
 // TestBFFParsing
 //------------------------------------------------------------------------------

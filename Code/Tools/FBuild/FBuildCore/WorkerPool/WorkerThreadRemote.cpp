@@ -3,20 +3,18 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/PrecompiledHeader.h"
-
 #include "WorkerThreadRemote.h"
 #include "Job.h"
 
-#include "Tools/FBuild/FBuildWorker/Worker/WorkerSettings.h"
+#include "../../FBuildWorker/Worker/WorkerSettings.h"
 
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
-#include "Tools/FBuild/FBuildCore/Protocol/Server.h"
-#include "Tools/FBuild/FBuildCore/WorkerPool/JobQueueRemote.h"
+#include "../FBuild.h"
+#include "../FLog.h"
+#include "../Protocol/Server.h"
+#include "JobQueueRemote.h"
 
-#include "Core/Process/Thread.h"
-#include "Core/Time/Timer.h"
+#include "../../../../Core/Process/Thread.h"
+#include "../../../../Core/Time/Timer.h"
 
 // Static
 //------------------------------------------------------------------------------

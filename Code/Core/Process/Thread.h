@@ -6,7 +6,7 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Env/Types.h"
+#include "../Env/Types.h"
 
 #if defined( __APPLE__ ) || defined( __LINUX__ )
     #include <pthread.h> // TODO:C Look at moving this out of header

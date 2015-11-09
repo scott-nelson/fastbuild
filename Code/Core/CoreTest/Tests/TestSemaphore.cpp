@@ -3,11 +3,11 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "TestFramework/UnitTest.h"
+#include "../../../TestFramework/UnitTest.h"
 
 // Core
-#include <Core/Process/Thread.h>
-#include <Core/Process/Semaphore.h>
+#include "../../Process/Thread.h"
+#include "../../Process/Semaphore.h"
 
 // TestSemaphore
 //------------------------------------------------------------------------------

@@ -5,7 +5,7 @@
 #ifndef _MURMURHASH3_H_
 #define _MURMURHASH3_H_
 
-#include "Core/Env/Types.h"
+#include "../../Env/Types.h"
 
 //-----------------------------------------------------------------------------
 // Platform-specific functions and macros

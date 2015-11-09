@@ -6,12 +6,13 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Core/Containers/Singleton.h"
-#include "Core/Process/Thread.h"
-#include "Core/Strings/AString.h"
+#include "../../../../Core/Containers/Singleton.h"
+#include "../../../../Core/Process/Thread.h"
+#include "../../../../Core/Strings/AString.h"
 
 // system
 #if defined( __WINDOWS__ )
+	#define _WINSOCKAPI_
     #include <windows.h>
     #include <shellapi.h>
 #endif

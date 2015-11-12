@@ -3,19 +3,19 @@
 
 // Includes
 //------------------------------------------------------------------------------
-#include "Tools/FBuild/FBuildCore/FBuild.h"
-#include "Tools/FBuild/FBuildCore/FBuildVersion.h"
-#include "Tools/FBuild/FBuildCore/FLog.h"
+#include "../FBuildCore/FBuild.h"
+#include "../FBuildCore/FBuildVersion.h"
+#include "../FBuildCore/FLog.h"
 
-#include "Core/Containers/Array.h"
-#include "Core/Env/Env.h"
-#include "Core/Process/Process.h"
-#include "Core/Process/SharedMemory.h"
-#include "Core/Process/SystemMutex.h"
-#include "Core/Process/Thread.h"
-#include "Core/Profile/Profile.h"
-#include "Core/Strings/AStackString.h"
-#include "Core/Tracing/Tracing.h"
+#include "../../../Core/Containers/Array.h"
+#include "../../../Core/Env/Env.h"
+#include "../../../Core/Process/Process.h"
+#include "../../../Core/Process/SharedMemory.h"
+#include "../../../Core/Process/SystemMutex.h"
+#include "../../../Core/Process/Thread.h"
+#include "../../../Core/Profile/Profile.h"
+#include "../../../Core/Strings/AStackString.h"
+#include "../../../Core/Tracing/Tracing.h"
 
 #include <memory.h>
 #include <stdio.h>
@@ -181,7 +181,7 @@ int Main(int argc, char * argv[])
 				return FBUILD_OK; // exit app
 			}
 			else if ( thisArg.BeginsWith( "-j" ) &&
-					  sscanf( thisArg.Get(), "-j%i", &numWorkers ) == 1 )
+					  sscanf_s( thisArg.Get(), "-j%i", &numWorkers ) == 1 )
 			{
                 // only accept within sensible range
 				if ( ( numWorkers >= 0 ) && ( numWorkers <= 64 ) )

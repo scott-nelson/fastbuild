@@ -18,6 +18,9 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{05FC9FA3-FE1F-4F76-BB02-7F08509A3257}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -145,9 +148,6 @@
       <AdditionalDependencies>$(SolutionDir)x64\Release\lz4-r127.lib;$(SolutionDir)x64\Release\Core.lib;$(SolutionDir)x64\Release\TestFramework.lib;$(SolutionDir)x64\Release\FBuildCore.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\FastBuild\Code\Tools\FBuild\FBuildApp\Main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
